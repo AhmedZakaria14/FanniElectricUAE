@@ -33,19 +33,31 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-lg">مناطق الخدمة 24 ساعة</h4>
             <ul className="space-y-2.5 text-gray-300">
-              <li><Link href="/electrician-in-dubai" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي منازل في دبي</Link></li>
-              <li><Link href="/electrician-in-sharjah" className="hover:underline hover:text-amazon-orange transition-colors">فني كهرباء في الشارقة</Link></li>
-              <li><Link href="/electrician-in-ajman" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي طوارئ في عجمان</Link></li>
-              <li><Link href="/electrician-in-dubai" className="hover:underline hover:text-amazon-orange transition-colors">خدمات الكهرباء في البرشاء وديرة</Link></li>
-              <li><Link href="/electrician-in-sharjah" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي في الخان والمجاز</Link></li>
+              <li><Link href="/electrician-in-dubai" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي في دبي</Link></li>
+              <li><Link href="/electrician-in-sharjah" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي في الشارقة</Link></li>
+              <li><Link href="/electrician-in-ajman" className="hover:underline hover:text-amazon-orange transition-colors">كهربائي في عجمان</Link></li>
+              <li className="pt-2 text-white font-medium border-t border-gray-700 mt-2">أحياء دبي:</li>
+              <li><Link href="/electrician-in-dubai#coverage" className="hover:underline hover:text-amazon-orange transition-colors">البرشاء، مارينا، جميرا</Link></li>
+              <li><Link href="/electrician-in-dubai#coverage" className="hover:underline hover:text-amazon-orange transition-colors">مردف، الورقاء، الطوار</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold mb-4 text-lg">روابط سريعة</h4>
+            <ul className="space-y-2.5 text-gray-300">
+              <li className="font-medium text-white">أحياء الشارقة:</li>
+              <li><Link href="/electrician-in-sharjah#areas" className="hover:underline hover:text-amazon-orange transition-colors">المجاز، التعاون، الخان</Link></li>
+              <li><Link href="/electrician-in-sharjah#areas" className="hover:underline hover:text-amazon-orange transition-colors">مويلح، النهدة، القرائن</Link></li>
+              <li className="pt-2 text-white font-medium border-t border-gray-700 mt-2">أحياء عجمان:</li>
+              <li><Link href="/electrician-in-ajman#areas" className="hover:underline hover:text-amazon-orange transition-colors">النعيمية، الروضة، المويهات</Link></li>
+              <li><Link href="/electrician-in-ajman#areas" className="hover:underline hover:text-amazon-orange transition-colors">الجرف، الراشدية، الحميدية</Link></li>
             </ul>
           </div>
           <div>
             <h4 className="font-bold mb-4 text-lg">الدعم والمساعدة</h4>
             <ul className="space-y-2.5 text-gray-300">
               <li><Link href="/#booking" className="hover:underline hover:text-amazon-orange transition-colors">احجز موعد الآن</Link></li>
-              <li><Link href="tel:+971551050478" className="hover:underline hover:text-amazon-orange transition-colors">اتصل بالدعم الفني</Link></li>
-              <li><Link href="https://wa.me/971551050478" target="_blank" className="hover:underline hover:text-amazon-orange transition-colors">تواصل واتساب مباشر</Link></li>
+              <li><Link href="tel:+971522815005" className="hover:underline hover:text-amazon-orange transition-colors">اتصل بالدعم الفني</Link></li>
+              <li><Link href="https://wa.me/971522815005" target="_blank" className="hover:underline hover:text-amazon-orange transition-colors">تواصل واتساب مباشر</Link></li>
               <li><Link href="/" className="hover:underline hover:text-amazon-orange transition-colors">الأسئلة الشائعة</Link></li>
             </ul>
           </div>

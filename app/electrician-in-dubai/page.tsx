@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Calendar, CheckCircle2, ChevronRight, Clock, ShieldCheck, Zap, AlertTriangle, PenTool, Home, MessageCircle, Info, MapPin } from 'lucide-react';
 import BookingForm from '@/components/booking-form';
 import FAQAccordion from '@/components/faq-accordion';
+import ServiceNav from '@/components/service-nav';
 
 import heroImage from '@/src/assets/images/dubai_electrician_1781708702166.jpg';
 import repairImage from '@/src/assets/images/electrical_repair_1781704567775.jpg';
@@ -10,8 +11,8 @@ import panelImage from '@/src/assets/images/panel_dubai_1781706867088.jpg';
 import smartHomeImage from '@/src/assets/images/smart_home_1781706915423.jpg';
 
 export const metadata = {
-  title: 'كهربائي منازل في دبي - 0551050478 | فني كهرباء الامارات طوارئ 24 ساعة',
-  description: 'ابحث عن أفضل كهربائي منازل في دبي 0551050478. شركة فني كهرباء الامارات تقدم خدمات تصليح، صيانة أعطال، وتأسيس كهرباء للفلل بأسعار رخيصة وخدمة 24 ساعة.',
+  title: 'كهربائي منازل في دبي - 0522815005 | فني كهرباء الامارات طوارئ 24 ساعة',
+  description: 'ابحث عن أفضل كهربائي منازل في دبي 0522815005. شركة فني كهرباء الامارات تقدم خدمات تصليح، صيانة أعطال، وتأسيس كهرباء للفلل بأسعار رخيصة وخدمة 24 ساعة.',
   keywords: 'كهربائي منازل في دبي, كهربائي دبي, فني كهربائي دبي, تصليح كهرباء دبي, مقاول كهرباء دبي',
 };
 
@@ -27,6 +28,8 @@ export default function ElectricianInDubai() {
           <span className="text-amazon-blue font-bold">كهربائي منازل في دبي</span>
         </div>
       </div>
+
+      <ServiceNav />
 
       <div className="max-w-7xl mx-auto px-4 w-full py-6 lg:py-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -55,7 +58,7 @@ export default function ElectricianInDubai() {
                   إذا كنت تبحث عن <strong>كهربائي منازل في دبي</strong> يقدم خدمات مهنية سريعة على مدار اليوم، فأنت في المكان الصحيح. مع التطور الكبير في نمط الحياة اليومي داخل إمارة دبي واسترعاء الانتباه للاعتماد الكلي على الطاقة الكهربائية داخل المنازل، الفلل، والمؤسسات التجارية، بات من الضروري الاستعانة بفني كهربائي موثوق وخبير. نحن في <strong>فني كهرباء الامارات</strong> نفخر بتقديم مجموعة شاملة من خدمات تصليح، صيانة، وتأسيس الأنظمة الكهربائية المتكاملة لجميع الأحياء في دبي.
                 </p>
                 <p>
-                  من الأعطال الطارئة مثل انقطاع التيار الكهربائي أو الالتماسات المفاجئة، إلى تجهيز التمديدات الحديثة وأنظمة المنازل الذكية (Smart Home)، يحتاج كل مسكن في دبي لرقم <strong>كهربائي دبي</strong> متاح للتدخل العاجل. اتصل الآن على الخط الساخن <strong>0551050478</strong> للحصول على أمهر الفنيين وأرخص الأسعار.
+                  من الأعطال الطارئة مثل انقطاع التيار الكهربائي أو الالتماسات المفاجئة، إلى تجهيز التمديدات الحديثة وأنظمة المنازل الذكية (Smart Home)، يحتاج كل مسكن في دبي لرقم <strong>كهربائي دبي</strong> متاح للتدخل العاجل. اتصل الآن على الخط الساخن <strong>0522815005</strong> للحصول على أمهر الفنيين وأرخص الأسعار.
                 </p>
 
                 <div className="bg-blue-50 border-r-4 border-amazon-blue p-5 my-8">
@@ -271,7 +274,7 @@ export default function ElectricianInDubai() {
                   },
                   {
                     question: 'كيف يمكنني حجز موعد مع فني كهربائي منازل؟',
-                    answer: 'يمكنك ببساطة الانصال على رقمنا المباشر 0551050478، أو ترك رسالة على الواتس آب، أو الحجز عبر النموذج الموجود بنهاية هذه الصفحة.'
+                    answer: 'يمكنك ببساطة الانصال على رقمنا المباشر 0522815005، أو ترك رسالة على الواتس آب، أو الحجز عبر النموذج الموجود بنهاية هذه الصفحة.'
                   },
                   {
                     question: 'هل تقدمون ضماناً على الإصلاح؟',
@@ -311,7 +314,7 @@ export default function ElectricianInDubai() {
                         "name": "كيف يمكنني حجز موعد مع فني كهربائي منازل؟",
                         "acceptedAnswer": {
                           "@type": "Answer",
-                          "text": "يمكنك ببساطة الانصال على رقمنا المباشر 0551050478، أو ترك رسالة على الواتس آب."
+                          "text": "يمكنك ببساطة الانصال على رقمنا المباشر 0522815005، أو ترك رسالة على الواتس آب."
                         }
                       },
                       {
@@ -340,12 +343,12 @@ export default function ElectricianInDubai() {
                 <p className="text-sm text-gray-500 mt-2">اتصل بنا للتدخل السريع أو حجز التركيبات</p>
               </div>
 
-              <a href="tel:0551050478" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
+              <a href="tel:0522815005" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
                 <span className="text-xs font-normal">خط ساخن مباشر</span>
-                <span className="text-lg tracking-wider" dir="ltr">055 105 0478</span>
+                <span className="text-lg tracking-wider" dir="ltr">052 281 5005</span>
               </a>
 
-              <a href="https://wa.me/971551050478" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
+              <a href="https://wa.me/971522815005" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
                 <MessageCircle className="w-5 h-5" /> تحدث عبر واتساب
               </a>
 

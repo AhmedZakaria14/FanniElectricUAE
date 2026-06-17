@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Calendar, CheckCircle2, ChevronRight, Clock, ShieldCheck, Zap, AlertTriangle, TrendingDown, MessageCircle, Info, FileText } from 'lucide-react';
 import BookingForm from '@/components/booking-form';
+import ServiceNav from '@/components/service-nav';
 
 import maintenanceElectrician1 from '@/src/assets/images/maintenance_electrician_1781704595136.jpg';
 import maintenanceElectrician2 from '@/src/assets/images/maintenance_testing_1781705647084.jpg';
@@ -23,6 +24,8 @@ export default function MaintenanceService() {
           <span className="text-amazon-blue font-bold">صيانة دورية ووقائية للمباني</span>
         </div>
       </div>
+
+      <ServiceNav />
 
       <div className="max-w-7xl mx-auto px-4 w-full py-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Calendar, CheckCircle2, ChevronRight, Clock, AlertTriangle, MessageCircle, PenTool, ShieldCheck, Zap, Activity, Info, MapPin } from 'lucide-react';
 import BookingForm from '@/components/booking-form';
 import LiveCounter from '@/components/live-counter';
+import ServiceNav from '@/components/service-nav';
 
 import electricalRepair1 from '@/src/assets/images/electrical_repair_1781704567775.jpg';
 import electricalRepair2 from '@/src/assets/images/emergency_repair_2_1781705617033.jpg';
@@ -24,6 +25,8 @@ export default function EmergencyRepairService() {
           <span className="text-amazon-blue font-bold">إصلاح أعطال طارئة 24/7</span>
         </div>
       </div>
+
+      <ServiceNav />
 
       <div className="max-w-7xl mx-auto px-4 w-full py-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
