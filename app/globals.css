@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: var(--font-tajawal), sans-serif;
+  --color-amazon-blue: #232f3e;
+  --color-amazon-orange: #ff9900;
+  --color-amazon-hover: #f89000;
+  --color-amazon-light: #eaeded;
+}
+
+@layer base {
+  body {
+    @apply font-arabic bg-amazon-light text-amazon-blue;
+  }
+}
