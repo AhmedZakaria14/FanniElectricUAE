@@ -29,7 +29,7 @@ export default function Home() {
             <h1 className="text-3xl md:text-4xl font-bold leading-tight">
               أفضل فني كهرباء في بيتك خلال 30 دقيقة
             </h1>
-            <p className="text-sm md:text-base font-medium text-amazon-blue/80">
+            <p className="text-base md:text-lg font-medium text-amazon-blue/80">
               أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!
             </p>
             <div className="flex gap-2 pt-2">
@@ -52,22 +52,22 @@ export default function Home() {
             <div className="flex gap-3 items-start border-b md:border-b-0 md:border-l border-gray-100 pb-4 md:pb-0 md:pl-4 last:border-0 pl-0">
               <Clock className="w-8 h-8 text-amazon-orange flex-shrink-0" />
               <div>
-                <h3 className="font-bold text-sm mb-1 text-[#007185]">سرعة استجابة خيالية</h3>
-                <p className="text-xs text-gray-700 leading-tight">نوصلك في أسرع وقت في دبي، عجمان، والشارقة، لأننا نعرف زين إن أعطال الكهربا ما تتأجل.</p>
+                <h3 className="font-bold text-base mb-1 text-[#007185]">سرعة استجابة خيالية</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">نوصلك في أسرع وقت في دبي، عجمان، والشارقة، لأننا نعرف زين إن أعطال الكهربا ما تتأجل.</p>
               </div>
             </div>
             <div className="flex gap-3 items-start border-b md:border-b-0 md:border-l border-gray-100 pb-4 md:pb-0 md:pl-4 last:border-0 pl-0">
               <ShieldCheck className="w-8 h-8 text-amazon-orange flex-shrink-0" />
               <div>
-                <h3 className="font-bold text-sm mb-1 text-[#007185]">شغل مضمون وموثوق</h3>
-                <p className="text-xs text-gray-700 leading-tight">فريقنا مكون من فنيين معتمدين عندهم خبرة ميدانية طويلة. نضمن لك جودة القطع والتركيب.</p>
+                <h3 className="font-bold text-base mb-1 text-[#007185]">شغل مضمون وموثوق</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">فريقنا مكون من فنيين معتمدين عندهم خبرة ميدانية طويلة. نضمن لك جودة القطع والتركيب.</p>
               </div>
             </div>
             <div className="flex gap-3 items-start pb-4 md:pb-0">
               <CheckCircle2 className="w-8 h-8 text-amazon-orange flex-shrink-0" />
               <div>
-                <h3 className="font-bold text-sm mb-1 text-[#007185]">أسعار واضحة ومناسبة</h3>
-                <p className="text-xs text-gray-700 leading-tight">نعطيك تسعيرة واضحة قبل لا نبدأ أي تصليح، وبأسعار تنافسية جداً تناسب ميزانيتك، بدون أي مفاجآت.</p>
+                <h3 className="font-bold text-base mb-1 text-[#007185]">أسعار واضحة ومناسبة</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">نعطيك تسعيرة واضحة قبل لا نبدأ أي تصليح، وبأسعار تنافسية جداً تناسب ميزانيتك، بدون أي مفاجآت.</p>
               </div>
             </div>
           </div>
@@ -89,8 +89,8 @@ export default function Home() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <p className="text-[11px] text-gray-600 mb-2 flex-grow">تصليح فوري للأعطال الطارئة في أي وقت لضمان سلامة بيتك.</p>
-            <span className="text-[11px] text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">احجز الخدمة الحين &larr;</span>
+            <p className="text-sm text-gray-600 mb-2 flex-grow">تصليح فوري للأعطال الطارئة في أي وقت لضمان سلامة بيتك.</p>
+            <span className="text-sm text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">احجز الخدمة الحين &larr;</span>
           </Link>
 
           {/* Service 2 */}
@@ -105,8 +105,8 @@ export default function Home() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <p className="text-[11px] text-gray-600 mb-2 flex-grow">تأسيس وتركيب تمديدات كهربائية للبيوت والمحلات التجارية.</p>
-            <span className="text-[11px] text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">عرض خيارات التمديد &larr;</span>
+            <p className="text-sm text-gray-600 mb-2 flex-grow">تأسيس وتركيب تمديدات كهربائية للبيوت والمحلات التجارية.</p>
+            <span className="text-sm text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">عرض خيارات التمديد &larr;</span>
           </Link>
 
           {/* Service 3 */}
@@ -121,8 +121,8 @@ export default function Home() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <p className="text-[11px] text-gray-600 mb-2 flex-grow">تشييك شامل للمجمعات واستبدال القطع قبل لا تخرب.</p>
-            <span className="text-[11px] text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">تفاصيل باقات الصيانة &larr;</span>
+            <p className="text-sm text-gray-600 mb-2 flex-grow">تشييك شامل للمجمعات واستبدال القطع قبل لا تخرب.</p>
+            <span className="text-sm text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">تفاصيل باقات الصيانة &larr;</span>
           </Link>
         </div>
       </section>
@@ -139,11 +139,11 @@ export default function Home() {
           <div className="lg:col-span-4 space-y-4">
             <LiveCounter />
             <div className="bg-white p-4 shadow-sm border border-gray-200 max-h-min">
-              <h3 className="font-bold text-base mb-3 text-amazon-blue">عن خدمتـنا السريعة</h3>
-              <p className="text-xs text-gray-700 mb-3 leading-relaxed">
+              <h3 className="font-bold text-lg mb-3 text-amazon-blue">عن خدمتـنا السريعة</h3>
+              <p className="text-sm text-gray-700 mb-3 leading-relaxed">
                 سواء كنت في دبي، الشارقة، أو عجمان، اختار الخدمة والوقت اللي يناسبك عبر النموذج. فريقنا بيتواصل معاك مباشرة لتأكيد الموعد بأسرع وقت.
               </p>
-              <div className="bg-[#FFF9E6] border border-[#FF9900] p-3 rounded text-xs leading-relaxed text-black">
+              <div className="bg-[#FFF9E6] border border-[#FF9900] p-3 rounded text-sm leading-relaxed text-black">
                 متوفر فني كهرباء قريب منك الآن <br/> وقت الوصول المتوقع: <strong>في غضون 30 دقيقة</strong>
               </div>
             </div>

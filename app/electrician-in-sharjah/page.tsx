@@ -51,7 +51,7 @@ export default function ElectricianInSharjah() {
                 />
               </div>
 
-              <div className="prose max-w-none text-gray-700 leading-8 text-[15px] space-y-6">
+              <div className="prose max-w-none text-gray-700 leading-relaxed text-base md:text-lg space-y-6">
                 <p>
                   يعد دمج الخدمات السريعة والموثوقة أمراً محورياً لكل منزل، ومما لا شك فيه أن <strong>كهربائي في الشارقة</strong> يعد هو الحل المثالي لكل من يبحث عن فني متخصص ذو مصداقية وقادر على التعامل مع جميع الأعطال الكهربائية المعقدة قبل البسيطة. 
                   نحن في موقع <strong>فني كهرباء الامارات (FanniElectricUAE)</strong> نوفر لك أمهر الفنيين وأحدث الأدوات للقيام بكافة الأعمال، من تمديدات الإنارة، تغيير اللوحات الرئيسية (DB Sets)، وتحديث التأسيس الكامل المتوافق مع اشتراطات هيئة كهرباء ومياه الشارقة (SEWA).
@@ -78,7 +78,7 @@ export default function ElectricianInSharjah() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-[15px] leading-8">
+            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               
               <section id="pro-electrician">
                 <h2 className="text-2xl font-bold text-amazon-blue mb-4 border-b pb-2">مميزات أفضل كهربائي منازل في الشارقة</h2>

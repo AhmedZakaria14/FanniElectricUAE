@@ -17,7 +17,7 @@ export default function WiringService() {
   return (
     <>
       {/* Breadcrumbs */}
-      <div className="bg-[#F3F3F3] text-xs py-2 border-b border-gray-200">
+      <div className="bg-[#F3F3F3] text-sm py-2 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 w-full flex items-center gap-2 text-gray-600">
           <Link href="/" className="hover:underline hover:text-amazon-orange">الرئيسية</Link>
           <ChevronRight className="w-3 h-3" />
@@ -76,11 +76,11 @@ export default function WiringService() {
               {/* Highlights */}
               <div className="mb-6">
                 <h2 className="text-xl font-bold border-b border-gray-200 pb-2 mb-4 text-amazon-blue">بنية تحتية كهربائية تدوم طويلاً</h2>
-                <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                <p className="text-base text-gray-700 leading-relaxed mb-4">
                   البنية التحتية الكهربائية هي القلب النابض لأي مشروع حديث، سواء كان فيلا سكنية فاخرة أو محلاً تجارياً عالي الاستهلاك. في <span className="font-bold text-amazon-orange">فني كهرباء الامارات</span>، نقدم حلول التأسيس والتمديد من الحفر على العظم وحتى التشطيب النهائي الجمالي (Fit-out).
                 </p>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#F3F3F3] p-4 rounded text-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#F3F3F3] p-4 rounded text-base">
                   <ul className="space-y-3">
                     <li className="flex gap-2"><CheckCircle2 className="w-5 h-5 flex-shrink-0 text-green-600" /> <span className="text-gray-800">تأسيس المخططات الكهربائية للمباني وفق معايير DEWA و SEWA</span></li>
                     <li className="flex gap-2"><CheckCircle2 className="w-5 h-5 flex-shrink-0 text-green-600" /> <span className="text-gray-800">توزيع متوازن ومدروس للأحمال الكهربائية (3-Phase Load Distribution)</span></li>
@@ -113,8 +113,8 @@ export default function WiringService() {
             <div className="bg-white p-4 lg:p-6 shadow-sm border border-gray-200 space-y-8">
               
               <section id="services-residential">
-                <h2 className="text-xl font-bold text-amazon-blue mb-3 border-b pb-2 flex items-center gap-2"><Home className="text-amazon-orange" /> التمديدات السكنية لتأسيس الفلل والشقق</h2>
-                <div className="text-sm text-gray-700 leading-relaxed space-y-4">
+                <h2 className="text-2xl font-bold text-amazon-blue mb-3 border-b pb-2 flex items-center gap-2"><Home className="text-amazon-orange" /> التمديدات السكنية لتأسيس الفلل والشقق</h2>
+                <div className="text-base text-gray-700 leading-relaxed space-y-4">
                   <p>تأسيس كهرباء الفيلا أو المنزل الجديد ليس مجرد تمديد أسلاك؛ بل هو فن رسم مسارات الطاقة لخدمة راحتك اليومية. من توزيع الديكورات المضيئة (Spotlights و LED Strips) في الأسقف المستعارة، إلى تحديد أماكن الأفياش بدقة جانب الأسرة وخلف الشاشات لضمان عدم وجود أسلاك متدلية مشوهة للمنظر.</p>
                   <p>نقوم بمهام متعددة في المشاريع السكنية أبرزها:</p>
                   <ul className="list-disc pr-5 space-y-2">

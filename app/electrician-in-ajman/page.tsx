@@ -51,7 +51,7 @@ export default function ElectricianInAjman() {
                 />
               </div>
 
-              <div className="prose max-w-none text-gray-700 leading-8 text-[15px] space-y-6">
+              <div className="prose max-w-none text-gray-700 leading-relaxed text-base md:text-lg space-y-6">
                 <p>
                   من الطبيعي أن تبحث عن <strong>كهربائي في عجمان</strong> يجمع بين الخبرة العالية والأسعار المناسبة عندما تواجه عطلاً كهربائياً. الأعطال الكهربائية عادة ما تقتحم هدوء المنزل بلا سابق إنذار، فقد يفصل القاطع فجأة صيفاً، أو تنقطع إنارة مبنى تجاري كامل مما يعطل عملك. للرد على هذه الانقطاعات المزعجة، يقدم لك <strong>فني كهرباء الامارات (FanniElectricUAE)</strong> أفضل مقاولي وفنيي الكهرباء لخدمتك في جميع المجمعات والفلل والشقق بإمارة عجمان.
                 </p>
@@ -77,7 +77,7 @@ export default function ElectricianInAjman() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-[15px] leading-8">
+            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               
               <section id="why-choose-us">
                 <h2 className="text-2xl font-bold text-amazon-blue mb-4 border-b pb-2">لماذا تختار كهربائي في عجمان من فني الإمارات؟</h2>

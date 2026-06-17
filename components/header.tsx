@@ -40,13 +40,13 @@ export default function Header() {
           </a>
         </div>
       </div>
-      <nav className="bg-[#37475A] text-white text-xs px-4 py-2 flex items-center gap-6 overflow-x-auto whitespace-nowrap">
+      <nav className="bg-[#37475A] text-white text-sm px-4 py-2 flex items-center gap-6 overflow-x-auto whitespace-nowrap">
         <div className="max-w-7xl mx-auto w-full flex items-center gap-6">
-          <Link href="/#hero" className="hover:border-white border border-transparent p-1 shadow-sm">الرئيسية</Link>
-          <Link href="/services/emergency-repair" className="hover:border-white border border-transparent p-1 shadow-sm">إصلاح أعطال</Link>
-          <Link href="/services/wiring" className="hover:border-white border border-transparent p-1 shadow-sm">تمديدات</Link>
-          <Link href="/services/maintenance" className="hover:border-white border border-transparent p-1 shadow-sm">صيانة</Link>
-          <Link href="/#booking" className="hover:border-white border border-transparent p-1 shadow-sm">احجز الحين</Link>
+          <Link href="/#hero" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">الرئيسية</Link>
+          <Link href="/services/emergency-repair" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">إصلاح أعطال</Link>
+          <Link href="/services/wiring" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">تمديدات</Link>
+          <Link href="/services/maintenance" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">صيانة</Link>
+          <Link href="/#booking" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">احجز الحين</Link>
           <div className="mr-auto text-amazon-orange font-bold hidden md:block">فنيون كهرباء 24 ساعة</div>
         </div>
       </nav>

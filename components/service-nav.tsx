@@ -30,7 +30,7 @@ export default function ServiceNav() {
               <Link 
                 key={service.href} 
                 href={service.href}
-                className={`text-xs font-bold flex items-center gap-1.5 py-3 border-b-2 transition-colors ${
+                className={`text-sm font-bold flex items-center gap-1.5 py-3 border-b-2 transition-colors ${
                   isActive 
                     ? 'border-amazon-orange text-amazon-orange' 
                     : 'border-transparent text-gray-600 hover:text-amazon-orange'
@@ -46,7 +46,7 @@ export default function ServiceNav() {
         <div className="h-6 w-px bg-gray-200" />
         
         <div className="flex items-center gap-6">
-          <span className="text-[10px] font-bold text-gray-400 uppercase flex items-center gap-1">
+          <span className="text-xs font-bold text-gray-400 uppercase flex items-center gap-1">
             <MapPin className="w-3 h-3" />
             تغطية المناطق:
           </span>
@@ -56,7 +56,7 @@ export default function ServiceNav() {
               <Link 
                 key={area.href} 
                 href={area.href}
-                className={`text-xs font-bold py-3 border-b-2 transition-colors ${
+                className={`text-sm font-bold py-3 border-b-2 transition-colors ${
                   isActive 
                     ? 'border-amazon-orange text-amazon-orange' 
                     : 'border-transparent text-gray-600 hover:text-amazon-orange'

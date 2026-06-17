@@ -53,7 +53,7 @@ export default function ElectricianInDubai() {
                 />
               </div>
 
-              <div className="prose max-w-none text-gray-700 leading-8 text-[15px] space-y-6">
+              <div className="prose max-w-none text-gray-700 leading-relaxed text-base md:text-lg space-y-6">
                 <p>
                   إذا كنت تبحث عن <strong>كهربائي منازل في دبي</strong> يقدم خدمات مهنية سريعة على مدار اليوم، فأنت في المكان الصحيح. مع التطور الكبير في نمط الحياة اليومي داخل إمارة دبي واسترعاء الانتباه للاعتماد الكلي على الطاقة الكهربائية داخل المنازل، الفلل، والمؤسسات التجارية، بات من الضروري الاستعانة بفني كهربائي موثوق وخبير. نحن في <strong>فني كهرباء الامارات</strong> نفخر بتقديم مجموعة شاملة من خدمات تصليح، صيانة، وتأسيس الأنظمة الكهربائية المتكاملة لجميع الأحياء في دبي.
                 </p>
@@ -88,7 +88,7 @@ export default function ElectricianInDubai() {
               </ul>
             </div>
 
-            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-[15px] leading-8">
+            <div className="bg-white p-6 shadow-sm border border-gray-200 rounded-lg space-y-10 prose max-w-none text-gray-700 text-base md:text-lg leading-relaxed">
               
               <section id="need-electrician">
                 <h2 className="text-2xl font-bold text-amazon-blue mb-4 border-b pb-2">لماذا تحتاج أفضل كهربائي منازل في دبي؟</h2>

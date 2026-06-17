@@ -18,7 +18,7 @@ export default function EmergencyRepairService() {
   return (
     <>
       {/* Breadcrumbs */}
-      <div className="bg-[#F3F3F3] text-xs py-2 border-b border-gray-200">
+      <div className="bg-[#F3F3F3] text-sm py-2 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 w-full flex items-center gap-2 text-gray-600">
           <Link href="/" className="hover:underline hover:text-amazon-orange">الرئيسية</Link>
           <ChevronRight className="w-3 h-3" />
@@ -77,11 +77,11 @@ export default function EmergencyRepairService() {
               {/* Highlights */}
               <div className="mb-6">
                 <h2 className="text-xl font-bold border-b border-gray-200 pb-2 mb-4 text-amazon-blue">لماذا تختار خدمة الطوارئ من فني كهرباء الامارات؟</h2>
-                <p className="text-sm text-gray-700 leading-relaxed mb-4">
+                <p className="text-base text-gray-700 leading-relaxed mb-4">
                   هل تواجه انقطاعًا مفاجئًا في التيار الكهربائي في منتصف الليل؟ أو التماس يعرض سلامة أسرتك أو منشأتك للخطر؟ نحن في <span className="font-bold text-amazon-orange">فني كهرباء الامارات</span> (FanniElectricUAE) نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.
                 </p>
                 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#F3F3F3] p-4 rounded text-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-[#F3F3F3] p-4 rounded text-base">
                   <ul className="space-y-3">
                     <li className="flex gap-2"><CheckCircle2 className="w-5 h-5 flex-shrink-0 text-green-600" /> <span className="text-gray-800">تشخيص دقيق باستخدام أجهزة متطورة (Multimeters و Thermal Imagers)</span></li>
                     <li className="flex gap-2"><CheckCircle2 className="w-5 h-5 flex-shrink-0 text-green-600" /> <span className="text-gray-800">تصليح الالتماسات الكهربائية المعقدة (Short Circuit) بأمان تام</span></li>
@@ -114,8 +114,8 @@ export default function EmergencyRepairService() {
             <div className="bg-white p-4 lg:p-6 shadow-sm border border-gray-200 space-y-8">
               
               <section id="what-is-emergency">
-                <h2 className="text-xl font-bold text-amazon-blue mb-3 border-b pb-2">ما هي الأعطال الكهربائية التي تتطلب تدخلاً طارئاً؟</h2>
-                <div className="text-sm text-gray-700 leading-relaxed space-y-4">
+                <h2 className="text-2xl font-bold text-amazon-blue mb-3 border-b pb-2">ما هي الأعطال الكهربائية التي تتطلب تدخلاً طارئاً؟</h2>
+                <div className="text-base text-gray-700 leading-relaxed space-y-4">
                   <p>الكهرباء ليست شيئاً يمكن التهاون معه. بعض المشاكل قد تبدو بسيطة ولكنها تخفي خلفها كوارث محتملة. يجب عليك الاتصال بفني كهرباء طوارئ فوراً في الحالات التالية:</p>
                   <ul className="list-disc pr-5 space-y-2">
                     <li><strong>رائحة حريق أو دخان من المقابس:</strong> هذا يدل على ذوبان الأسلاك الداخلية بسبب حمل زائد، وهو خطر حريق مباشر.</li>
@@ -251,7 +251,7 @@ export default function EmergencyRepairService() {
                 <div className="flex gap-2 items-center"><ShieldCheck className="w-4 h-4 text-green-600" /> <span className="text-gray-800 font-medium">ضمان 30 يوم على الإصلاحات الطارئة</span></div>
               </div>
 
-              <a href="https://wa.me/971551050478" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
+              <a href="https://wa.me/971522815005" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
                 <MessageCircle className="w-5 h-5" /> واتساب للطوارئ الفورية
               </a>
               <a href="#booking-form-section" className="w-full bg-[#FFA41C] hover:bg-[#FF9900] text-amazon-blue font-bold py-3 rounded-lg border border-[#FF8F00] shadow-sm transition duration-200 text-sm flex items-center justify-center">

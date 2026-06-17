@@ -30,8 +30,8 @@ export default function CoverageSection() {
             <Navigation className="w-3.5 h-3.5" />
             <span>نصلك أينما كنت في الإمارات الشمالية</span>
           </div>
-          <h2 className="font-bold text-2xl md:text-3xl mb-4 text-amazon-blue">نطاق خدماتنا ونقاط التغطية</h2>
-          <p className="text-sm md:text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <h2 className="font-bold text-3xl md:text-4xl mb-4 text-amazon-blue">نطاق خدماتنا ونقاط التغطية</h2>
+          <p className="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             تم توزيع فرقنا الفنية بشكل استراتيجي في مدن دبي، الشارقة، وعجمان لضمان سرعة الاستجابة في حالات الطوارئ وتقديم الخدمات الروتينية بكفاءة عالية.
           </p>
         </div>
@@ -57,8 +57,8 @@ export default function CoverageSection() {
                   </div>
                 </div>
                 
-                <h3 className="font-bold text-xl mb-3 text-amazon-blue">{region.name}</h3>
-                <p className="text-sm text-gray-600 mb-6 leading-relaxed">
+                <h3 className="font-bold text-2xl mb-3 text-amazon-blue">{region.name}</h3>
+                <p className="text-base text-gray-600 mb-6 leading-relaxed">
                   {region.description}
                 </p>
 
@@ -71,7 +71,7 @@ export default function CoverageSection() {
                     {region.areas.map((area) => (
                       <span 
                         key={area} 
-                        className="text-[11px] font-medium bg-gray-50 text-gray-700 px-2.5 py-1.5 rounded border border-gray-100 hover:bg-white hover:border-amazon-orange hover:text-amazon-orange transition-all cursor-default"
+                        className="text-xs font-medium bg-gray-50 text-gray-700 px-3 py-2 rounded border border-gray-100 hover:bg-white hover:border-amazon-orange hover:text-amazon-orange transition-all cursor-default"
                       >
                         {area}
                       </span>
@@ -88,8 +88,8 @@ export default function CoverageSection() {
           ))}
         </div>
 
-        <div className="mt-12 p-4 bg-blue-50 border border-blue-100 rounded-lg text-center">
-          <p className="text-xs md:text-sm text-amazon-blue font-medium">
+        <div className="mt-12 p-5 bg-blue-50 border border-blue-100 rounded-lg text-center">
+          <p className="text-sm md:text-base text-amazon-blue font-medium">
             * إذا لم تجد منطقتك مذكورة أعلاه، يرجى التواصل معنا عبر <a href="https://wa.me/971522815005" className="font-bold underline">الواتساب</a> للتحقق من إمكانية التغطية.
           </p>
         </div>
