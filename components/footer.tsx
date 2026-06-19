@@ -81,6 +81,22 @@ export default function Footer() {
           <Link href="/" className="hover:underline">إعلانات مبنية على الاهتمامات</Link>
         </div>
         <div className="text-[11px] text-gray-400">© {new Date().getFullYear()} جميع الحقوق محفوظة لشركة فني كهرباء الامارات للخدمات الكهربائية الذكية</div>
+        
+        <div className="mt-8 flex justify-center items-center">
+          <a 
+            href="https://nasharhub.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="group flex flex-row-reverse items-center gap-1.5 bg-[#1a242f] hover:bg-[#232f3e] border border-gray-700 hover:border-gray-500 px-5 py-2.5 rounded-full transition-all duration-300"
+          >
+            <span className="text-sm font-bold bg-gradient-to-r from-amazon-orange to-[#FFD814] bg-clip-text text-transparent group-hover:drop-shadow-[0_0_8px_rgba(255,153,0,0.5)] tracking-wide font-sans" dir="ltr">
+              NasharHub.com
+            </span>
+            <span className="text-[11px] text-gray-400 group-hover:text-gray-200 transition-colors">
+              تم التصميم والتطوير بواسطة
+            </span>
+          </a>
+        </div>
       </div>
     </footer>
   );
