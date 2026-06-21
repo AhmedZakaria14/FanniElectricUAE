@@ -1,7 +1,6 @@
 import type {Metadata} from 'next';
 import {Tajawal} from 'next/font/google';
 import {Toaster} from 'sonner';
-import Script from 'next/script';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import FloatingWhatsApp from '@/components/floating-whatsapp';
@@ -47,21 +46,6 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="ar" dir="rtl" className={tajawal.variable}>
-      <head>
-        {/* Google Tag (gtag.js) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18257755118"
-          strategy="afterInteractive"
-        />
-        <Script id="google-tag-manager" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18257755118');
-          `}
-        </Script>
-      </head>
       <body suppressHydrationWarning className="font-arabic bg-amazon-light text-amazon-blue antialiased flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
