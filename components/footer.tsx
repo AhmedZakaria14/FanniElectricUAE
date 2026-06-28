@@ -55,6 +55,7 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-lg">الدعم والمساعدة</h4>
             <ul className="space-y-2.5 text-gray-300">
+              <li><Link href="/blog" className="hover:underline hover:text-amazon-orange transition-colors">المدونة والنصائح</Link></li>
               <li><Link href="/#booking" className="hover:underline hover:text-amazon-orange transition-colors">احجز موعد الآن</Link></li>
               <li><Link href="tel:+971522815005" className="hover:underline hover:text-amazon-orange transition-colors">اتصل بالدعم الفني</Link></li>
               <li><Link href="https://wa.me/971522815005" target="_blank" className="hover:underline hover:text-amazon-orange transition-colors">تواصل واتساب مباشر</Link></li>

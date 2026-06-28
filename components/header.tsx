@@ -46,6 +46,7 @@ export default function Header() {
           <Link href="/services/emergency-repair" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">إصلاح أعطال</Link>
           <Link href="/services/wiring" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">تمديدات</Link>
           <Link href="/services/maintenance" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">صيانة</Link>
+          <Link href="/blog" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">المدونة</Link>
           <Link href="/#booking" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">احجز الحين</Link>
           <div className="mr-auto text-amazon-orange font-bold hidden md:block">فنيون كهرباء 24 ساعة</div>
         </div>

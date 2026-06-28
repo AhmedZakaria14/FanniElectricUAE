@@ -14,9 +14,44 @@ export const metadata = {
   description: 'أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.',
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "إصلاح أعطال كهربائية طارئة",
+  "name": "خدمة إصلاح أعطال كهربائية طارئة فورية في دبي، الشارقة وعجمان",
+  "description": "نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "فني كهرباء الامارات",
+    "url": "https://www.fannielectricuae.com/"
+  },
+  "url": "https://www.fannielectricuae.com/services/emergency-repair",
+  "areaServed": [
+    { "@type": "City", "name": "دبي" },
+    { "@type": "City", "name": "الشارقة" },
+    { "@type": "City", "name": "عجمان" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "خدمات الإصلاح الطارئة",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تشخيص دقيق باستخدام أجهزة متطورة" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تصليح الالتماسات الكهربائية المعقدة" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "استجابة ليلية في دبي والشارقة وعجمان" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "إعادة توزيع الأحمال لتجنب فصل القواطع المتكرر" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "إصلاح لوحات التوزيع الرئيسية للمنازل والمحلات" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "توفير قطع غيار أصلية ومطابقة لمعايير ديوا وسيوة" } }
+    ]
+  }
+};
+
 export default function EmergencyRepairService() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Breadcrumbs */}
       <div className="bg-[#F3F3F3] text-sm py-2 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 w-full flex items-center gap-2 text-gray-600">

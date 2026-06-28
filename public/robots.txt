@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /search
+Disallow: /booking
+
+Sitemap: https://www.fannielectricuae.com/sitemap.xml
