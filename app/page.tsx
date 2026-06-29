@@ -127,6 +127,35 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="latest-posts" className="px-4 pb-4 max-w-7xl mx-auto w-full">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="font-bold text-lg text-amazon-blue">آخر المقالات والنصائح</h2>
+          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات &larr;</Link>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Post 1 */}
+          <Link href="/blog/electrical-short-circuit" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">التماس كهربائي: أسبابه ومخاطره وكيفية التعامل معه</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+          
+          {/* Post 2 */}
+          <Link href="/blog/electrical-maintenance-company" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">شركة صيانة كهرباء احترافية في الإمارات</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+          
+          {/* Post 3 */}
+          <Link href="/blog/power-outage-reasons" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">سبب انقطاع الكهرباء في المنزل</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+        </div>
+      </section>
+
       {/* Coverage Section */}
       <CoverageSection />
 
