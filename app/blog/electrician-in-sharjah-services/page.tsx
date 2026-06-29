@@ -69,7 +69,7 @@ export default function BlogPost() {
               تعتمد الشركة على فريق من الفنيين المتخصصين القادرين على التعامل مع مختلف الأعطال الكهربائية بسرعة ودقة، حيث تشمل الخدمات:
             </p>
             <ul className="list-disc pr-6 space-y-2">
-              <li>تأسيس التمديدات الكهربائية الجديدة.</li>
+              <li>تأسيس التمديدات الكهربائية الجديدة. ولمعرفة المزيد يمكنك الاطلاع على <Link href="/blog/electrical-wiring-technician" target="_blank" className="text-[#007185] hover:underline font-bold">مهام فني تمديدات كهربائية</Link>.</li>
               <li>صيانة الأعطال المنزلية.</li>
               <li>تركيب الإضاءة الداخلية والخارجية.</li>
               <li>إصلاح القواطع ولوحات الكهرباء.</li>
@@ -85,7 +85,7 @@ export default function BlogPost() {
               كما تركز الشركة على تقديم حلول موفرة للطاقة تساعد في تقليل استهلاك الكهرباء وتحسين أداء الأجهزة، وتشمل خدمات كهرباء الشارقة:
             </p>
             <ul className="list-disc pr-6 space-y-2">
-              <li>صيانة دورية للأنظمة الكهربائية.</li>
+              <li>صيانة دورية للأنظمة الكهربائية. اقرأ المزيد عن <Link href="/blog/electrical-maintenance-company" target="_blank" className="text-[#007185] hover:underline font-bold">شركة صيانة كهرباء وخدماتها</Link>.</li>
               <li>فحص شامل للكشف عن الأعطال.</li>
               <li>تركيب أنظمة إنارة حديثة.</li>
               <li>تحديث الشبكات الكهربائية القديمة.</li>
@@ -127,8 +127,8 @@ export default function BlogPost() {
               تُعد الأعطال الكهربائية من أكثر المشكلات شيوعًا، لذلك يوفر كهربائي منازل في الشارقة خدمات صيانة شاملة للتعامل مع جميع الأعطال بسرعة، ومن أبرز الأعطال:
             </p>
             <ul className="list-disc pr-6 space-y-2">
-              <li>انقطاع الكهرباء المفاجئ.</li>
-              <li>التماس الكهربائي.</li>
+              <li><Link href="/blog/power-outage-reasons" target="_blank" className="text-[#007185] hover:underline font-bold">انقطاع الكهرباء المفاجئ</Link>.</li>
+              <li><Link href="/blog/electrical-short-circuit" target="_blank" className="text-[#007185] hover:underline font-bold">التماس الكهربائي</Link>.</li>
               <li>ضعف التيار.</li>
               <li>أعطال المفاتيح.</li>
             </ul>

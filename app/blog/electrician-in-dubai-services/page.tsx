@@ -59,8 +59,8 @@ export default function BlogPost() {
             <h2 className="text-2xl font-bold text-amazon-blue mt-8 mb-4">ما أبرز خدمات كهربائي منازل في دبي؟</h2>
             <p>يقدم فريق فني كهرباء الإمارات مجموعة شاملة من الخدمات الكهربائية التي يحتاجها كل صاحب منزل أو مدير منشأة تجارية، وتشمل:</p>
             <ul className="list-disc pr-6 space-y-2">
-              <li><strong>إصلاح الأعطال الطارئة:</strong> تشخيص فوري وإصلاح دقيق لأي عطل كهربائي مفاجئ، سواء كان قاطع رئيسي أو تلف في الأسلاك الداخلية.</li>
-              <li><strong>التمديدات الكهربائية المنزلية والتجارية:</strong> تأسيس شبكات كهربائية جديدة للمنازل والفلل والمحلات التجارية وفق أحدث المعايير الفنية المعتمدة.</li>
+              <li><strong>إصلاح الأعطال الطارئة:</strong> تشخيص فوري وإصلاح دقيق لأي عطل كهربائي مفاجئ، سواء كان قاطع رئيسي أو تلف في الأسلاك الداخلية. اقرأ المزيد حول التعامل مع <Link href="/blog/electrical-short-circuit" target="_blank" className="text-[#007185] hover:underline font-bold">التماس كهربائي</Link> وأسباب <Link href="/blog/power-outage-reasons" target="_blank" className="text-[#007185] hover:underline font-bold">انقطاع الكهرباء في المنزل</Link>.</li>
+              <li><strong>التمديدات الكهربائية المنزلية والتجارية:</strong> تأسيس شبكات كهربائية جديدة للمنازل والفلل والمحلات التجارية وفق أحدث المعايير الفنية المعتمدة. تعرف على دور <Link href="/blog/electrical-wiring-technician" target="_blank" className="text-[#007185] hover:underline font-bold">فني تمديدات كهربائية</Link> في ذلك.</li>
               <li><strong>الصيانة الدورية الوقائية:</strong> فحص شامل للمنظومة الكهربائية بأكملها، واستبدال القطع المتقادمة قبل أن تتحول إلى أعطال مكلفة تستنزف الوقت والمال.</li>
               <li><strong>تأسيس أنظمة المنازل الذكية:</strong> توصيل وبرمجة منظومات الإضاءة الذكية ولوحات التحكم الحديثة التي تمنحك تحكم كامل في بيئتك المنزلية.</li>
               <li><strong>فحص كفاءة الكهرباء السنوي:</strong> تقييم دقيق لمستوى الاستهلاك مع تقديم توصيات عملية لتخفيض فاتورة الكهرباء الشهرية.</li>
@@ -165,7 +165,7 @@ export default function BlogPost() {
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-sm">
                 <h3 className="font-bold text-lg text-amazon-blue mb-2">هل يغطي كهربائي منازل في دبي جميع أحياء الإمارة؟</h3>
-                <p>نعم، يصل كهربائي منازل في دبي إلى معظم الأحياء الرئيسية كديرة وجميرا والبرشاء ودبي مارينا والكرامة والقوز ونخلة جميرا وغيرها، كما يمتد نطاق كهربائي المنازل في دبي ليشمل الشارقة وعجمان بنفس مستوى الخدمة والسرعة، إن لم تجد الحي الذي تسكن به مذكور، تواصل معنا مباشرة للتحقق من التغطية.</p>
+                <p>نعم، يصل كهربائي منازل في دبي إلى معظم الأحياء الرئيسية كديرة وجميرا والبرشاء ودبي مارينا والكرامة والقوز ونخلة جميرا وغيرها، كما يمتد نطاق كهربائي المنازل في دبي ليشمل الشارقة وعجمان بنفس مستوى الخدمة والسرعة. لمعرفة المزيد يمكنك زيارة <Link href="/blog/electrician-in-sharjah-services" target="_blank" className="text-[#007185] hover:underline font-bold">كهربائي الشارقة</Link> أو <Link href="/blog/electrician-in-ajman-guide" target="_blank" className="text-[#007185] hover:underline font-bold">كهربائي عجمان</Link>. إن لم تجد الحي الذي تسكن به مذكور، تواصل معنا مباشرة للتحقق من التغطية.</p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-5 shadow-sm">
                 <h3 className="font-bold text-lg text-amazon-blue mb-2">كيف يمكنني حجز موعد مع كهربائي منازل في دبي؟</h3>
