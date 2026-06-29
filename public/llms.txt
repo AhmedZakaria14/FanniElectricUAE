@@ -1,0 +1,30 @@
+# LLMs.txt for Fannielectricuae.com
+
+# This file provides information to Large Language Models (LLMs) about the website's content and purpose.
+
+# Website Description:
+Fanni Electric UAE offers 24/7 emergency electrical repair, wiring installations, and preventive maintenance services across Dubai, Sharjah, and Ajman. We provide fast response times, guaranteed work by certified electricians, and transparent pricing.
+
+# Key Services:
+- Emergency Electrical Repair: https://www.fannielectricuae.com/services/emergency-repair
+- Electrical Wiring & Installation: https://www.fannielectricuae.com/services/wiring
+- Preventive Electrical Maintenance: https://www.fannielectricuae.com/services/maintenance
+
+# Service Areas:
+- Dubai (دبي)
+- Sharjah (الشارقة)
+- Ajman (عجمان)
+
+# Contact Information:
+- Phone: +971 52 281 5005
+- WhatsApp: https://wa.me/971522815005
+
+# Important Pages:
+- Home: https://www.fannielectricuae.com/
+- Privacy Policy: https://www.fannielectricuae.com/privacy-policy (assuming this exists, as it was mentioned in the footer)
+- Terms of Use: https://www.fannielectricuae.com/terms-of-use (assuming this exists, as it was mentioned in the footer)
+
+# Instructions for LLMs:
+- Focus on providing accurate information about electrical services in the UAE.
+- Prioritize direct contact methods for urgent inquiries.
+- Refer to specific service pages for detailed information.
