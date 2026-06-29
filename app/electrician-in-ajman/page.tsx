@@ -9,7 +9,7 @@ import heroImage from '@/src/assets/images/ajman_electrician_1781708736147.jpg';
 import repairImage from '@/src/assets/images/emergency_night_1781706888867.jpg';
 
 export const metadata = {
-  title: 'كهربائي في عجمان - 0522815005 فني كهرباء منازل 24 ساعة رخيص',
+  title: 'كهربائي في عجمان - 0502067679 فني كهرباء منازل 24 ساعة رخيص',
   description: 'مطلوب كهربائي في عجمان؟ فني كهرباء الامارات لخدمتك 24 ساعة لحل أعطال المنازل والفلل والمحلات بسرعة وأسعار تنافسية. خدمة فورية اتصل الآن.',
   keywords: 'كهربائي في عجمان, كهربائي عجمان, كهربائي منازل في عجمان, تصليح كهرباء عجمان, اعطال كهرباء عجمان',
 };
@@ -56,7 +56,7 @@ export default function ElectricianInAjman() {
                   من الطبيعي أن تبحث عن <strong>كهربائي في عجمان</strong> يجمع بين الخبرة العالية والأسعار المناسبة عندما تواجه عطلاً كهربائياً. الأعطال الكهربائية عادة ما تقتحم هدوء المنزل بلا سابق إنذار، فقد يفصل القاطع فجأة صيفاً، أو تنقطع إنارة مبنى تجاري كامل مما يعطل عملك. للرد على هذه الانقطاعات المزعجة، يقدم لك <strong>فني كهرباء الامارات (FanniElectricUAE)</strong> أفضل مقاولي وفنيي الكهرباء لخدمتك في جميع المجمعات والفلل والشقق بإمارة عجمان.
                 </p>
                 <p>
-                  لا نُساوم في السلامة أو في الالتزام بالوقت؛ فنحن نعلم أن توفر <strong>فني كهرباء منازل 24 ساعة</strong> يمثل للجميع طوق النجاة. نقدم خدمات شاملة من توصيل إضاءة، تركيب السخانات والمكيفات، تمديد خطوط جديدة للملاحق، إلى التعامل بحسم مع الالتماسات الكهربائية. اتصل هاتفياً <strong>0522815005</strong> لخدمة فورية وتكلفة شفافة تماماً.
+                  لا نُساوم في السلامة أو في الالتزام بالوقت؛ فنحن نعلم أن توفر <strong>فني كهرباء منازل 24 ساعة</strong> يمثل للجميع طوق النجاة. نقدم خدمات شاملة من توصيل إضاءة، تركيب السخانات والمكيفات، تمديد خطوط جديدة للملاحق، إلى التعامل بحسم مع الالتماسات الكهربائية. اتصل هاتفياً <strong>0502067679</strong> لخدمة فورية وتكلفة شفافة تماماً.
                 </p>
               </div>
             </div>
@@ -246,12 +246,12 @@ export default function ElectricianInAjman() {
                 <p className="text-sm text-gray-500 mt-2">اتصل بنا للتدخل السريع أو حجز المواعيد</p>
               </div>
 
-              <a href="tel:0522815005" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
+              <a href="tel:0502067679" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
                 <span className="text-xs font-normal">تواصل هاتفياً مباشرة</span>
-                <span className="text-lg tracking-wider" dir="ltr">052 281 5005</span>
+                <span className="text-lg tracking-wider" dir="ltr">050 206 7679</span>
               </a>
 
-              <a href="https://wa.me/971522815005" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
+              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
                 <MessageCircle className="w-5 h-5" /> تحدث معنى عبر واتساب
               </a>
 

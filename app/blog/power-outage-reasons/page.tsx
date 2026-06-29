@@ -133,7 +133,7 @@ export default function BlogPost() {
             </p>
             <p className="font-bold mt-2">للتواصل المباشر:</p>
             <ul className="list-disc pr-6 space-y-2">
-              <li>الهاتف وواتساب: <a href="https://wa.me/971522815005" className="text-[#007185] hover:underline" dir="ltr">+971 52 281 5005</a></li>
+              <li>الهاتف وواتساب: <a href="https://wa.me/971502067679" className="text-[#007185] hover:underline" dir="ltr">+971 50 206 7679</a></li>
               <li>الموقع الإلكتروني: <a href="https://www.fannielectricuae.com" className="text-[#007185] hover:underline">fannielectricuae.com</a></li>
             </ul>
           </section>

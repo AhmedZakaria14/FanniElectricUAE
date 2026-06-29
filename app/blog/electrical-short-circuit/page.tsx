@@ -230,7 +230,7 @@ export default function BlogPost() {
               توفر Fanni Electric UAE عدة وسائل للتواصل السريع مع العملاء داخل عجمان والإمارات، ويمكن طلب الدعم الفني أو الطوارئ الكهربائية في أي وقت.
             </p>
             <ul className="list-disc pr-6 space-y-2">
-              <li>رقم الهاتف وواتساب: <a href="https://wa.me/971522815005" className="text-[#007185] hover:underline" dir="ltr">+971 52 281 5005</a></li>
+              <li>رقم الهاتف وواتساب: <a href="https://wa.me/971502067679" className="text-[#007185] hover:underline" dir="ltr">+971 50 206 7679</a></li>
               <li>الموقع الإلكتروني: <a href="https://www.fannielectricuae.com" className="text-[#007185] hover:underline">fannielectricuae.com</a></li>
             </ul>
           </section>

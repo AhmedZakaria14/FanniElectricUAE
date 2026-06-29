@@ -9,7 +9,7 @@ import heroImage from '@/src/assets/images/sharjah_electrician_1781708718738.jpg
 import maintenanceImage from '@/src/assets/images/emergency_repair_2_1781705617033.jpg';
 
 export const metadata = {
-  title: 'كهربائي في الشارقة - 0522815005 فني كهرباء منازل سريع وأرخص سعر',
+  title: 'كهربائي في الشارقة - 0502067679 فني كهرباء منازل سريع وأرخص سعر',
   description: 'أفضل كهربائي في الشارقة متاح 24 ساعة مع خدمة فورية من شركة فني كهرباء الامارات، مقاول كهرباء لتأسيس الفلل وتصليح الأعطال في الشارقة.',
   keywords: 'كهربائي في الشارقة, كهربائي الشارقة, فني كهرباء الشارقة, كهربائي منازل الشارقة, تصليح كهرباء الشارقة',
 };
@@ -57,7 +57,7 @@ export default function ElectricianInSharjah() {
                   نحن في موقع <strong>فني كهرباء الامارات (FanniElectricUAE)</strong> نوفر لك أمهر الفنيين وأحدث الأدوات للقيام بكافة الأعمال، من تمديدات الإنارة، تغيير اللوحات الرئيسية (DB Sets)، وتحديث التأسيس الكامل المتوافق مع اشتراطات هيئة كهرباء ومياه الشارقة (SEWA).
                 </p>
                 <p>
-                  الكهرباء ليست رفاهية يمكن تأجيل إصلاحها. أعطال الالتماسات وذوبان الأسلاك خطر داهم، وهذا ما يدفعنا لتوفير خط ساخن <strong>0522815005</strong> لطلب عامل أو <strong>فني كهربائي منازل بالشارقة</strong> يعمل على مدار الـ 24 ساعة ويصلك لأي حي بكل سرعة مجهزاً بقطع غيار أصلية وموثوقة.
+                  الكهرباء ليست رفاهية يمكن تأجيل إصلاحها. أعطال الالتماسات وذوبان الأسلاك خطر داهم، وهذا ما يدفعنا لتوفير خط ساخن <strong>0502067679</strong> لطلب عامل أو <strong>فني كهربائي منازل بالشارقة</strong> يعمل على مدار الـ 24 ساعة ويصلك لأي حي بكل سرعة مجهزاً بقطع غيار أصلية وموثوقة.
                 </p>
               </div>
             </div>
@@ -165,7 +165,7 @@ export default function ElectricianInSharjah() {
                 <div className="bg-red-50 p-4 border-r-4 border-red-500 rounded mt-4">
                   <h4 className="font-bold text-red-700">متى تطلب طوارئ؟</h4>
                   <p className="text-sm mt-1 text-red-900">
-                    رائحة احتراق بلاستيك مميزة قادمة من اللوحة، شرارة عند إدخال الفيشة، انقطاع التيار عن غرفة وتواجدها بالباقي، أو صدمة كهربائية خفيفة عند لمس الأجهزة كالغسالة. <strong>لا تلمس شيئاً</strong> واتصل مباشرة بـ 0522815005.
+                    رائحة احتراق بلاستيك مميزة قادمة من اللوحة، شرارة عند إدخال الفيشة، انقطاع التيار عن غرفة وتواجدها بالباقي، أو صدمة كهربائية خفيفة عند لمس الأجهزة كالغسالة. <strong>لا تلمس شيئاً</strong> واتصل مباشرة بـ 0502067679.
                   </p>
                 </div>
               </section>
@@ -226,12 +226,12 @@ export default function ElectricianInSharjah() {
                 <p className="text-sm text-gray-500 mt-2">نرد على اتصالك في الحال، ونرسل الفني لموقعك</p>
               </div>
 
-              <a href="tel:0522815005" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
+              <a href="tel:0502067679" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
                 <span className="text-xs font-normal">تواصل مباشر</span>
-                <span className="text-lg tracking-wider" dir="ltr">052 281 5005</span>
+                <span className="text-lg tracking-wider" dir="ltr">050 206 7679</span>
               </a>
 
-              <a href="https://wa.me/971522815005" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
+              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
                 <MessageCircle className="w-5 h-5" /> دردشة الاستفسارات واتساب
               </a>
 

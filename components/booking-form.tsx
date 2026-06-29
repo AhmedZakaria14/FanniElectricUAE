@@ -36,7 +36,7 @@ export default function BookingForm() {
 - ملاحظات: ${data.notes || 'لا يوجد'}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/971522815005?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/971502067679?text=${encodedMessage}`;
     
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
