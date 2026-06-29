@@ -21,26 +21,77 @@ const serviceSchema = {
   "name": "خدمة إصلاح أعطال كهربائية طارئة فورية في دبي، الشارقة وعجمان",
   "description": "نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
   "provider": {
-    "@type": "LocalBusiness",
+    "@type": "Organization",
     "name": "فني كهرباء الامارات",
     "url": "https://www.fannielectricuae.com/"
   },
-  "url": "https://www.fannielectricuae.com/services/emergency-repair",
   "areaServed": [
-    { "@type": "City", "name": "دبي" },
-    { "@type": "City", "name": "الشارقة" },
-    { "@type": "City", "name": "عجمان" }
+    {
+      "@type": "State",
+      "name": "دبي"
+    },
+    {
+      "@type": "State",
+      "name": "الشارقة"
+    },
+    {
+      "@type": "State",
+      "name": "عجمان"
+    }
   ],
+  "url": "https://www.fannielectricuae.com/services/emergency-repair",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "خدمات الإصلاح الطارئة",
+    "name": "خدمات فني كهرباء الامارات",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تشخيص دقيق باستخدام أجهزة متطورة" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "تصليح الالتماسات الكهربائية المعقدة" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "استجابة ليلية في دبي والشارقة وعجمان" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "إعادة توزيع الأحمال لتجنب فصل القواطع المتكرر" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "إصلاح لوحات التوزيع الرئيسية للمنازل والمحلات" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "توفير قطع غيار أصلية ومطابقة لمعايير ديوا وسيوة" } }
+      {
+        "@type": "OfferCatalog",
+        "name": "إصلاح أعطال طارئة",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تشخيص دقيق باستخدام أجهزة متطورة"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تصليح الالتماسات الكهربائية المعقدة"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "استجابة ليلية في دبي والشارقة وعجمان"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "إعادة توزيع الأحمال لتجنب فصل القواطع المتكرر"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "إصلاح لوحات التوزيع الرئيسية للمنازل والمحلات"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "توفير قطع غيار أصلية ومطابقة لمعايير ديوا وسيوة"
+            }
+          }
+        ]
+      }
     ]
   }
 };
