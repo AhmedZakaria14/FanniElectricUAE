@@ -98,7 +98,8 @@ const faqSchema = {
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "Electrician",
+  "@type": "LocalBusiness",
+  "additionalType": "https://schema.org/Electrician",
   "@id": "https://www.fannielectricuae.com/",
   "name": "فني كهرباء الامارات",
   "url": "https://www.fannielectricuae.com/",
@@ -205,6 +206,41 @@ const localBusinessSchema = {
   }
 };
 
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "إصلاح أعطال كهربائية طارئة",
+  "name": "خدمة إصلاح أعطال كهربائية طارئة فورية في دبي، الشارقة وعجمان",
+  "description": "نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
+  "provider": {
+    "@type": "Organization",
+    "name": "فني كهرباء الامارات",
+    "url": "https://www.fannielectricuae.com/"
+  },
+  "areaServed": [
+    {
+      "@type": "State",
+      "name": "دبي"
+    },
+    {
+      "@type": "State",
+      "name": "الشارقة"
+    },
+    {
+      "@type": "State",
+      "name": "عجمان"
+    }
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.fannielectricuae.com/services/emergency-repair",
+    "priceCurrency": "AED",
+    "price": "150",
+    "availability": "https://schema.org/InStock"
+  }
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -257,6 +293,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
       </head>
       <body

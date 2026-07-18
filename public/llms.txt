@@ -16,15 +16,8 @@ Fanni Electric UAE offers 24/7 emergency electrical repair, wiring installations
 - Ajman (عجمان)
 
 # Contact Information:
-- Phone: +971 52 281 5005
-- WhatsApp: https://wa.me/971522815005
+- Phone: +971 50 206 7679
+- WhatsApp: https://wa.me/971502067679
 
 # Important Pages:
 - Home: https://www.fannielectricuae.com/
-- Privacy Policy: https://www.fannielectricuae.com/privacy-policy (assuming this exists, as it was mentioned in the footer)
-- Terms of Use: https://www.fannielectricuae.com/terms-of-use (assuming this exists, as it was mentioned in the footer)
-
-# Instructions for LLMs:
-- Focus on providing accurate information about electrical services in the UAE.
-- Prioritize direct contact methods for urgent inquiries.
-- Refer to specific service pages for detailed information.
