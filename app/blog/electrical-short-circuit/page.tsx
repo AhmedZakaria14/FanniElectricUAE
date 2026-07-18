@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة',
   keywords: 'التماس كهربائي, ماس كهربائي, أعطال الكهرباء, حل مشكلة التماس الكهربائي',
   alternates: {
-    canonical: "/blog/electrical-short-circuit",
+    canonical: "https://www.fannielectricuae.com/blog/electrical-short-circuit",
   },
 };
 

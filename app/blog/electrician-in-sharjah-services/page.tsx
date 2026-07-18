@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'كهربائي منازل في الشارقة يقدم خدمات احترافية تشمل الصيانة والتركيب والإصلاح، مع سرعة استجابة وضمان جودة العمل للحفاظ على كفاءة الأنظمة الكهربائية المنزلية',
   keywords: 'كهربائي منازل في الشارقة, كهرباء الشارقة, كهربائي الشارقة, طوارئ كهرباء الشارقة',
   alternates: {
-    canonical: "/blog/electrician-in-sharjah-services",
+    canonical: "https://www.fannielectricuae.com/blog/electrician-in-sharjah-services",
   },
 };
 

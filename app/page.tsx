@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
   description: "أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
   alternates: {
-    canonical: "/",
+    canonical: "https://www.fannielectricuae.com/",
   },
 };
 

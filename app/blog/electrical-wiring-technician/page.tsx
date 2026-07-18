@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'فني تمديدات كهربائية متخصص في تركيب وصيانة الشبكات الكهربائية داخل المنازل، يضمن توزيع الأحمال بشكل آمن، ويعالج الأعطال بكفاءة وفق المعايير الفنية الحديثة',
   keywords: 'فني تمديدات كهربائية, كهربائي تمديدات, كهربائي منازل',
   alternates: {
-    canonical: "/blog/electrical-wiring-technician",
+    canonical: "https://www.fannielectricuae.com/blog/electrical-wiring-technician",
   },
 };
 

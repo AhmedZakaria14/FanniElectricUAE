@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'كهربائي منازل في عجمان يقدم خدمات سريعة وموثوقة لجميع أعمال التمديدات والصيانة والإصلاح بأسعار مناسبة وجودة عالية مع الالتزام بالسلامة والدقة في التنفيذ الكاملة',
   keywords: 'كهربائي منازل في عجمان, عجمان, خدمات كهربائية, فني كهرباء',
   alternates: {
-    canonical: "/blog/electrician-in-ajman-guide",
+    canonical: "https://www.fannielectricuae.com/blog/electrician-in-ajman-guide",
   },
 };
 

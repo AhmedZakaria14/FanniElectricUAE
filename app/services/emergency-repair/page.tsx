@@ -13,7 +13,7 @@ export const metadata = {
   title: 'إصلاح أعطال كهربائية طارئة | دبي، الشارقة، عجمان | فني كهرباء الامارات',
   description: 'أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.',
   alternates: {
-    canonical: "/services/emergency-repair",
+    canonical: "https://www.fannielectricuae.com/services/emergency-repair",
   },
 };
 

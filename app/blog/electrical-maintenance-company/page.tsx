@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية، لا تتردد واحجز الآن.',
   keywords: 'شركة صيانة كهرباء, كهربائي منازل, دبي, الشارقة, عجمان',
   alternates: {
-    canonical: "/blog/electrical-maintenance-company",
+    canonical: "https://www.fannielectricuae.com/blog/electrical-maintenance-company",
   },
 };
 

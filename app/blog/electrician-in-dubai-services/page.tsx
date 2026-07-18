@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'كهربائي منازل في دبي متخصص في إصلاح الأعطال والتمديدات الكهربائية، تواصل مع فني كهرباء معتمد في الإمارات الآن، والمناطق التي تغطيها شركتنا.',
   keywords: 'كهربائي منازل في دبي, دبي, كهربائي دبي, فني كهرباء',
   alternates: {
-    canonical: "/blog/electrician-in-dubai-services",
+    canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-services",
   },
 };
 

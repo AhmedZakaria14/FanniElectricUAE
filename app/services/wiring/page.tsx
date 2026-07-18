@@ -12,7 +12,7 @@ export const metadata = {
   title: 'تمديدات كهربائية للمنازل والمحلات وتأسيس الأنظمة الذكية | فني كهرباء الامارات',
   description: 'أفضل مقاول تمديدات كهربائية وتأسيس كهرباء للمنازل والمشاريع التجارية في دبي والشارقة وعجمان. موافقات ديوا وتأسيس أنظمة السمارت هوم بأعلى معايير الجودة.',
   alternates: {
-    canonical: "/services/wiring",
+    canonical: "https://www.fannielectricuae.com/services/wiring",
   },
 };
 

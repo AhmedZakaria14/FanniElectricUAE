@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'المدونة | فني كهرباء الامارات',
   description: 'مقالات ونصائح حول صيانة الكهرباء، التمديدات الكهربائية، والتعامل مع الأعطال في منازل دبي والشارقة وعجمان.',
   alternates: {
-    canonical: "/blog",
+    canonical: "https://www.fannielectricuae.com/blog",
   },
 };
 
