@@ -18,9 +18,6 @@ export const metadata: Metadata = {
   title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
   description:
     "أفضل خدمات الكهرباء المنزلية والتجارية (fannielectricuae) في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
-  alternates: {
-    canonical: "/",
-  },
   verification: {
     google: "IdKHzfG3WnJl8SbMGdugUqDxMTdTFSScQ5o054tJYhM",
   },
@@ -99,6 +96,113 @@ const faqSchema = {
   ],
 };
 
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "additionalType": "https://schema.org/Electrician",
+  "name": "فني كهرباء الامارات",
+  "url": "https://www.fannielectricuae.com/",
+  "logo": "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
+  "description": "أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!",
+  "telephone": "+971502067679",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "دبي",
+    "addressRegion": "الإمارات العربية المتحدة",
+    "addressCountry": "AE"
+  },
+  "areaServed": [
+    { "@type": "State", "name": "دبي" },
+    { "@type": "State", "name": "الشارقة" },
+    { "@type": "State", "name": "عجمان" }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "خدمات فني كهرباء الامارات",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "خدمات إصلاح الأعطال",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "إصلاح أعطال الكهرباء الطارئة",
+              "description": "تصليح فوري للأعطال الكهربائية الطارئة في المنازل والمنشآت التجارية لضمان السلامة.",
+              "url": "https://www.fannielectricuae.com/services/emergency-repair"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "خدمات التمديدات الكهربائية",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تمديدات منزلية وتجارية",
+              "description": "تأسيس وتركيب تمديدات كهربائية للبيوت والمحلات التجارية بأعلى معايير الجودة والأمان.",
+              "url": "https://www.fannielectricuae.com/services/wiring"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "تأسيس أنظمة المنازل الذكية",
+              "description": "تركيب وتأسيس أنظمة المنازل الذكية المتكاملة لراحة وأمان أكبر.",
+              "url": "https://www.fannielectricuae.com/services/wiring"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "خدمات الصيانة الكهربائية",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "صيانة دورية ووقائية",
+              "description": "تشييك شامل للمجمعات واستبدال القطع الكهربائية قبل الأعطال، مع باقات صيانة مخصصة.",
+              "url": "https://www.fannielectricuae.com/services/maintenance"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "فحص كفاءة الكهرباء السنوية",
+              "description": "فحص شامل لكفاءة الأنظمة الكهربائية سنوياً لضمان الأداء الأمثل وتوفير الطاقة.",
+              "url": "https://www.fannielectricuae.com/services/maintenance"
+            }
+          }
+        ]
+      }
+    ]
+  }
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -140,6 +244,10 @@ export default function RootLayout({
         />
 
         {/* JSON-LD Schemas */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

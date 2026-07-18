@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { PhoneCall, Wrench, Zap, Clock, ShieldCheck, CheckCircle2, MessageCircle } from 'lucide-react';
 import BookingForm from '@/components/booking-form';
 import CoverageSection from '@/components/coverage-section';
@@ -9,6 +10,14 @@ import electricianHero from '@/src/assets/images/electrician_hero_1781704550729.
 import electricalRepair from '@/src/assets/images/electrical_repair_1781704567775.jpg';
 import wiringInstallation from '@/src/assets/images/wiring_installation_1781704581135.jpg';
 import maintenanceElectrician from '@/src/assets/images/maintenance_electrician_1781704595136.jpg';
+
+export const metadata: Metadata = {
+  title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
+  description: "أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

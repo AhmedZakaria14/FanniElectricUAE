@@ -6,6 +6,9 @@ import TableOfContents from '@/components/table-of-contents';
 export const metadata: Metadata = {
   title: 'سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة',
   description: 'تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة وخدمات كهربائي متخصص في دبي والشارقة وعجمان.',
+  alternates: {
+    canonical: "/blog/power-outage-reasons",
+  },
 };
 
 const tocItems = [
