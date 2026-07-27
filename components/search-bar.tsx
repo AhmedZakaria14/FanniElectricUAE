@@ -1,7 +1,9 @@
-'use client';
+"use client";
+import { Search } from '@/components/icons';
+
 
 import { useState, useEffect, useRef } from 'react';
-import { Search } from 'lucide-react';
+
 import Link from 'next/link';
 
 // Mock data for search

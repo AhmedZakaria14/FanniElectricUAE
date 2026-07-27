@@ -1,7 +1,10 @@
-'use client';
+"use client";
+import { List } from '@/components/icons';
+
+
 
 import { useEffect, useState } from 'react';
-import { List } from 'lucide-react';
+
 
 export default function TableOfContents({ items }: { items: { id: string; title: string }[] }) {
   const [activeId, setActiveId] = useState<string>('');

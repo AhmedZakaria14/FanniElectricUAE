@@ -1,7 +1,8 @@
+import { CheckCircle2,Clock,MessageCircle,PhoneCall,ShieldCheck,Wrench,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { PhoneCall, Wrench, Zap, Clock, ShieldCheck, CheckCircle2, MessageCircle } from 'lucide-react';
+
 import BookingForm from '@/components/booking-form';
 import CoverageSection from '@/components/coverage-section';
 import LiveCounter from '@/components/live-counter';
@@ -139,27 +140,55 @@ export default function Home() {
       <section id="latest-posts" className="px-4 pb-4 max-w-7xl mx-auto w-full">
         <div className="flex items-center justify-between mb-3">
           <h2 className="font-bold text-lg text-amazon-blue">آخر المقالات والنصائح</h2>
-          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات &larr;</Link>
+          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات ({7}) &larr;</Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {/* Post 1 */}
-          <Link href="/blog/electrical-short-circuit" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
-            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">التماس كهربائي: أسبابه ومخاطره وكيفية التعامل معه</h3>
-            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة.</p>
+          <Link href="/blog/electrician-in-ajman-guide" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">كهربائي منازل في عجمان: دليلك الشامل لخدمات موثوقة</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">خدمات سريعة وموثوقة لجميع أعمال التمديدات والصيانة والإصلاح بأسعار مناسبة مع الجودة والسلامة.</p>
             <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
           </Link>
-          
+
           {/* Post 2 */}
-          <Link href="/blog/electrical-maintenance-company" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
-            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">شركة صيانة كهرباء احترافية في الإمارات</h3>
-            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية.</p>
+          <Link href="/blog/electrical-wiring-technician" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">فني تمديدات كهربائية متدرب ومحترف</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">تركيب وصيانة الشبكات الكهربائية داخل المنازل، وضمان توزيع الأحمال بشكل آمن بأساليب حديثة.</p>
             <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
           </Link>
-          
+
           {/* Post 3 */}
+          <Link href="/blog/electrical-short-circuit" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">التماس كهربائي: أسبابه ومخاطره وتصرفات الطوارئ</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">ما يجب فعله عند حدوث ماس كهربائي، علامات الالتماس وكيفية الوقاية وحماية الأسرة والمنزل.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+
+          {/* Post 4 */}
+          <Link href="/blog/electrician-in-sharjah-services" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">صيانة وإصلاح كافة الأعطال والتمديدات في الشارقة بسرعة استجابة وضمان على جميع الأعمال.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+
+          {/* Post 5 */}
+          <Link href="/blog/electrician-in-dubai-services" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">كهربائي منازل في دبي: خدمات موثوقة على مدار الساعة</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">فني كهرباء معتمد ومجهز للوصول إلى كافة أحياء دبي خلال 30 دقيقة للحالات الطارئة والتأسيس.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+
+          {/* Post 6 */}
+          <Link href="/blog/electrical-maintenance-company" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">شركة صيانة كهرباء توفر كهربائي منازل وخدمات احترافية</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">حلول كهربائية شاملة للمنازل والفلل والمباني التجارية مع فحص دوري وضمان كفاءة الشبكة.</p>
+            <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+          </Link>
+
+          {/* Post 7 */}
           <Link href="/blog/power-outage-reasons" className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group">
-            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">سبب انقطاع الكهرباء في المنزل</h3>
-            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة.</p>
+            <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">سبب انقطاع الكهرباء في المنزل وكيفية التعامل معه</h3>
+            <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">أسباب انقطاع الكهرباء المفاجئ، انقطاع التيار عن المكيفات، وطرق التعامل الآمنة مع القواطع.</p>
             <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
           </Link>
         </div>

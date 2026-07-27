@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  transpilePackages: ['motion'],
+  transpilePackages: ['lucide-react'],
   async headers() {
     return [
       {

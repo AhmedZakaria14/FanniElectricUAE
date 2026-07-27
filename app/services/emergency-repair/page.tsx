@@ -1,6 +1,7 @@
+import { CheckCircle2,Activity,AlertTriangle,ChevronRight,Clock,Info,MapPin,MessageCircle,PenTool,ShieldCheck,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Calendar, CheckCircle2, ChevronRight, Clock, AlertTriangle, MessageCircle, PenTool, ShieldCheck, Zap, Activity, Info, MapPin } from 'lucide-react';
+
 import BookingForm from '@/components/booking-form';
 import LiveCounter from '@/components/live-counter';
 import ServiceNav from '@/components/service-nav';

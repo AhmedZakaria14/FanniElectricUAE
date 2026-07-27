@@ -1,4 +1,5 @@
-import { Zap } from 'lucide-react';
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 

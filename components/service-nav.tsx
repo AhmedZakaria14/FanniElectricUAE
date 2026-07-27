@@ -1,8 +1,10 @@
-'use client';
+"use client";
+import { MapPin, Wrench, Zap, ShieldCheck } from '@/components/icons';
+
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Zap, Wrench, ShieldCheck, MapPin } from 'lucide-react';
+
 
 const services = [
   { name: 'إصلاح طوارئ', href: '/services/emergency-repair', icon: Wrench },

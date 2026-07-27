@@ -1,6 +1,7 @@
+import { ChevronRight } from '@/components/icons';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { Calendar, ChevronRight } from 'lucide-react';
+
 
 export const metadata: Metadata = {
   title: 'المدونة | فني كهرباء الامارات',

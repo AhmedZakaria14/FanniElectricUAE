@@ -1,7 +1,9 @@
-'use client';
+"use client";
+import { TrendingUp,Users } from '@/components/icons';
+
 
 import { useState, useEffect } from 'react';
-import { Users, TrendingUp } from 'lucide-react';
+
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function LiveCounter() {

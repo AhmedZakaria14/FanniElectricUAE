@@ -1,6 +1,7 @@
+import { CheckCircle2,AlertTriangle,Calendar,ChevronRight,Clock,FileText,Info,MessageCircle,ShieldCheck,TrendingDown,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Calendar, CheckCircle2, ChevronRight, Clock, ShieldCheck, Zap, AlertTriangle, TrendingDown, MessageCircle, Info, FileText } from 'lucide-react';
+
 import BookingForm from '@/components/booking-form';
 import ServiceNav from '@/components/service-nav';
 

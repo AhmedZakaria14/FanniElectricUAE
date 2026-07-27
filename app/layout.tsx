@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Tajawal } from "next/font/google";
-import { Toaster } from "sonner";
 import Script from "next/script";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -14,231 +13,9 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.fannielectricuae.com"),
-  title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
+  title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة",
   description:
-    "أفضل خدمات الكهرباء المنزلية والتجارية (fannielectricuae) في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
-  verification: {
-    google: "IdKHzfG3WnJl8SbMGdugUqDxMTdTFSScQ5o054tJYhM",
-  },
-  icons: {
-    icon: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-    shortcut:
-      "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-    apple:
-      "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-  },
-  openGraph: {
-    title: "فني كهرباء الامارات",
-    description:
-      "أفضل خدمات الكهرباء المنزلية والتجارية (fannielectricuae) في دبي، عجمان، والشارقة.",
-    url: "https://www.fannielectricuae.com",
-    siteName: "فني كهرباء الامارات",
-    images: [
-      {
-        url: "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-        width: 800,
-        height: 600,
-      },
-    ],
-    locale: "ar_AE",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "فني كهرباء الامارات",
-    description: "أفضل خدمات الكهرباء المنزلية والتجارية في الإمارات.",
-    images: [
-      "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-    ],
-  },
-};
-
-const breadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    {
-      "@type": "ListItem",
-      position: 1,
-      name: "الرئيسية",
-      item: "https://www.fannielectricuae.com/",
-    },
-    {
-      "@type": "ListItem",
-      position: 2,
-      name: "إصلاح أعطال طارئة",
-      item: "https://www.fannielectricuae.com/services/emergency-repair",
-    },
-  ],
-};
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "لماذا تختارون فني كهرباء الامارات؟",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "نحن خيارك الأول لسرعة الاستجابة الخيالية، حيث نصلك في أسرع وقت في دبي، عجمان، والشارقة. نقدم شغل مضمون وموثوق من فنيين معتمدين وذوي خبرة طويلة، مع ضمان جودة القطع والتركيب. كما نقدم أسعار واضحة ومناسبة بدون أي مفاجآت.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "ما هي الأعطال الكهربائية التي تتطلب تدخلاً طارئاً؟",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "تتطلب الأعطال مثل رائحة حريق أو دخان من المقابس، انقطاع التيار عن جزء من المنزل دون الآخر، صعق كهربائي خفيف عند لمس الأجهزة، أو الشرار عند توصيل الأجهزة تدخلاً طارئاً فورياً.",
-      },
-    },
-  ],
-};
-
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "additionalType": "https://schema.org/Electrician",
-  "@id": "https://www.fannielectricuae.com/",
-  "name": "فني كهرباء الامارات",
-  "url": "https://www.fannielectricuae.com/",
-  "logo": "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-  "image": "https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png",
-  "priceRange": "$$",
-  "description": "أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!",
-  "telephone": "+971502067679",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "دبي",
-    "addressRegion": "الإمارات العربية المتحدة",
-    "addressCountry": "AE"
-  },
-  "areaServed": [
-    { "@type": "State", "name": "دبي" },
-    { "@type": "State", "name": "الشارقة" },
-    { "@type": "State", "name": "عجمان" }
-  ],
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    }
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "خدمات فني كهرباء الامارات",
-    "itemListElement": [
-      {
-        "@type": "OfferCatalog",
-        "name": "خدمات إصلاح الأعطال",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "إصلاح أعطال الكهرباء الطارئة",
-              "description": "تصليح فوري للأعطال الكهربائية الطارئة في المنازل والمنشآت التجارية لضمان السلامة.",
-              "url": "https://www.fannielectricuae.com/services/emergency-repair"
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "خدمات التمديدات الكهربائية",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "تمديدات منزلية وتجارية",
-              "description": "تأسيس وتركيب تمديدات كهربائية للبيوت والمحلات التجارية بأعلى معايير الجودة والأمان.",
-              "url": "https://www.fannielectricuae.com/services/wiring"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "تأسيس أنظمة المنازل الذكية",
-              "description": "تركيب وتأسيس أنظمة المنازل الذكية المتكاملة لراحة وأمان أكبر.",
-              "url": "https://www.fannielectricuae.com/services/wiring"
-            }
-          }
-        ]
-      },
-      {
-        "@type": "OfferCatalog",
-        "name": "خدمات الصيانة الكهربائية",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "صيانة دورية ووقائية",
-              "description": "تشييك شامل للمجمعات واستبدال القطع الكهربائية قبل الأعطال، مع باقات صيانة مخصصة.",
-              "url": "https://www.fannielectricuae.com/services/maintenance"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "فحص كفاءة الكهرباء السنوية",
-              "description": "فحص شامل لكفاءة الأنظمة الكهربائية سنوياً لضمان الأداء الأمثل وتوفير الطاقة.",
-              "url": "https://www.fannielectricuae.com/services/maintenance"
-            }
-          }
-        ]
-      }
-    ]
-  }
-};
-
-
-const serviceSchema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "إصلاح أعطال كهربائية طارئة",
-  "name": "خدمة إصلاح أعطال كهربائية طارئة فورية في دبي، الشارقة وعجمان",
-  "description": "نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
-  "provider": {
-    "@type": "Organization",
-    "name": "فني كهرباء الامارات",
-    "url": "https://www.fannielectricuae.com/"
-  },
-  "areaServed": [
-    {
-      "@type": "State",
-      "name": "دبي"
-    },
-    {
-      "@type": "State",
-      "name": "الشارقة"
-    },
-    {
-      "@type": "State",
-      "name": "عجمان"
-    }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.fannielectricuae.com/services/emergency-repair",
-    "priceCurrency": "AED",
-    "price": "150",
-    "availability": "https://schema.org/InStock"
-  }
+    "أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
 };
 
 export default function RootLayout({
@@ -249,75 +26,63 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl" className={tajawal.variable}>
       <head>
-        {/* Google Tag Manager */}
+        {/* Schema.org Markup for Local Business */}
         <Script
-          id="google-tag-manager"
-          strategy="beforeInteractive"
+          id="schema-local-business"
+          type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-W2QB76WX');
-          `,
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HomeAndConstructionBusiness",
+              name: "فني كهرباء الإمارات",
+              image: "https://fannielectricuae.com/logo.png",
+              "@id": "",
+              url: "https://fannielectricuae.com",
+              telephone: "+971522815005",
+              priceRange: "$$",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "الشارقة",
+                addressLocality: "الشارقة",
+                addressRegion: "الشارقة",
+                postalCode: "00000",
+                addressCountry: "AE",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 25.3463,
+                longitude: 55.4209,
+              },
+              openingHoursSpecification: {
+                "@type": "OpeningHoursSpecification",
+                dayOfWeek: [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday",
+                  "Saturday",
+                  "Sunday",
+                ],
+                opens: "00:00",
+                closes: "23:59",
+              },
+              sameAs: [
+                "https://www.facebook.com/fannielectricuae",
+                "https://www.instagram.com/fannielectricuae",
+              ],
+            }),
           }}
-        />
-        {/* Google Analytics GA4 */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-ELG1F3182B"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ELG1F3182B');
-          `,
-          }}
-        />
-
-        {/* JSON-LD Schemas */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
         />
       </head>
       <body
         suppressHydrationWarning
         className="font-arabic bg-amazon-light text-amazon-blue antialiased flex flex-col min-h-screen"
       >
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-W2QB76WX"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
-
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
         <FloatingWhatsApp />
-        <Toaster position="bottom-left" richColors />
       </body>
     </html>
   );

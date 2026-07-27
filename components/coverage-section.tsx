@@ -1,4 +1,6 @@
-import { MapPin, Truck, CheckCircle2, Navigation } from 'lucide-react';
+"use client";
+import { CheckCircle2,MapPin,Navigation,Truck } from '@/components/icons';
+
 
 const regions = [
   {

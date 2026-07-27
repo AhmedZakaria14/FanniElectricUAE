@@ -1,0 +1,25 @@
+
+> ai-studio-applet@0.1.0 dev
+> next dev -p 3001
+
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3001
+   - Network:      http://169.254.8.1:3001
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ○ Compiling /blog ...
+ ✓ Compiled /blog in 7.4s (737 modules)
+ GET /blog 200 in 8333ms
+ ✓ Compiled in 1208ms (263 modules)
+ ✓ Compiled in 219ms (263 modules)
+ ✓ Compiled in 208ms (263 modules)
+ ✓ Compiled in 204ms (263 modules)
+ ✓ Compiled in 211ms (263 modules)
+ ✓ Compiled in 194ms (263 modules)
+ ✓ Compiled in 242ms (263 modules)
+ ✓ Compiled in 276ms (263 modules)
+ ✓ Compiled in 349ms (263 modules)
+ ✓ Compiled in 286ms (263 modules)
+ ✓ Compiled in 655ms (263 modules)
+ ✓ Compiled in 509ms (263 modules)

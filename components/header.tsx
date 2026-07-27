@@ -1,6 +1,8 @@
+"use client";
+import { PhoneCall } from '@/components/icons';
 import Link from 'next/link';
 import Image from 'next/image';
-import { PhoneCall } from 'lucide-react';
+
 import SearchBar from '@/components/search-bar';
 
 export default function Header() {
@@ -30,7 +32,7 @@ export default function Header() {
         </div>
 
         {/* Search Bar - Client Component */}
-        <SearchBar />
+        {/* <SearchBar /> */}
 
         {/* Desktop Phone */}
         <div className="hidden md:flex items-center gap-4 ml-2">

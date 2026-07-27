@@ -1,6 +1,7 @@
+import { CheckCircle2,ChevronRight,Clock,Factory,Home,Info,MapPin,MessageCircle,PenTool,ShieldCheck,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
-import { CheckCircle2, ChevronRight, Clock, ShieldCheck, Zap, PenTool, Home, Factory, MessageCircle, Info, MapPin } from 'lucide-react';
+
 import BookingForm from '@/components/booking-form';
 import ServiceNav from '@/components/service-nav';
 
