@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `كهربائي في عجمان | 971502067679+`,
+  title: `أفضل كهربائي في عجمان | 971502067679+`,
   description: `هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على 971502067679+.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-ajman-24h",
@@ -94,7 +94,7 @@ export default function BlogPost() {
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نعم، الخدمة تعمل طوال 24 ساعة يومياً على مدار الأسبوع.</p>
 <h2 dir="rtl" id="section-19" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الخاتمة</h2>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">احفظ رقم فني كهرباء الإمارات <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a>، أو احجز مباشرة عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> للحصول على أسرع وأمن خدمة كهربائي في عجمان.</p>
-` }} />
+<h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li></ul>` }} />
             </div>
           </main>
 

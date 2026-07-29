@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `رقم كهربائي منازل في الإمارات دليل شامل | 502067679`,
+  title: `رقم كهربائي منازل موثوق في الإمارات دليل شامل | 502067679`,
   description: `تعرف على أفضل رقم كهربائي منازل في دبي والشارقة وعجمان، خدمة طوارئ 24 ساعة، تسعير واضح، وفنيون معتمدون يصلونك خلال دقائق.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-number-uae",
@@ -120,7 +120,7 @@ export default function BlogPost() {
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نعم، تتوفر خدمة إصلاح الأعطال الطارئة على مدار الساعة طوال أيام الأسبوع، ويمكن التواصل في أي وقت عبر الرقم 971502067679 أو عبر الواتساب.</p>
 <h2 dir="rtl" id="section-23" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خاتمة</h2>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">وفي الختام، اختيار رقم كهربائي منازل موثوق ليس أمرا يمكن تأجيله إلى وقت حدوث المشكلة، بل هو خطوة استباقية تحمي المنزل وأفراد الأسرة من مخاطر قد تكون جسيمة، ويمكن التواصل مع فريق فني كهرباء الإمارات في أي وقت عبر الرقم <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">971502067679</a> لحجز موعد أو للتعامل مع أي حالة طارئة عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">الحجز الفوري</a>.</p>
-` }} />
+<h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li></ul>` }} />
               </div>
           </main>
 
