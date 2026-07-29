@@ -140,7 +140,7 @@ export default function Home() {
       <section id="latest-posts" className="px-4 pb-4 max-w-7xl mx-auto w-full">
         <div className="flex items-center justify-between mb-3">
           <h2 className="font-bold text-lg text-amazon-blue">آخر المقالات والنصائح</h2>
-          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات ({7}) &larr;</Link>
+          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات ({22}) &larr;</Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {/* Post 1 */}
