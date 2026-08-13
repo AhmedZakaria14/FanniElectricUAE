@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة | فني كهرباء الامارات`,
+  title: `كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة | فني كهرباء الامارات | 502067679`,
   description: `كهربائي منازل في الشارقة يقدم خدمات احترافية تشمل الصيانة والتركيب والإصلاح، مع سرعة استجابة وضمان جودة العمل للحفاظ على كفاءة الأنظمة الكهربائية المنزلية`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-sharjah-services",
@@ -108,9 +108,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة
-          </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة | 502067679</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">

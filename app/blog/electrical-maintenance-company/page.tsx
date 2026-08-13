@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `شركة صيانة كهرباء توفر كهربائي منازل وخدمات الكهرباء الاحترافية في الإمارات | فني كهرباء الامارات`,
+  title: `شركة صيانة كهرباء توفر كهربائي منازل وخدمات الكهرباء الاحترافية في الإمارات | فني كهرباء الامارات | 502067679`,
   description: `شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية، لا تتردد واحجز الآن.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-maintenance-company",
@@ -84,9 +84,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            شركة صيانة كهرباء توفر كهربائي منازل وخدمات الكهرباء الاحترافية في الإمارات
-          </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">شركة صيانة كهرباء توفر كهربائي منازل وخدمات الكهرباء الاحترافية في الإمارات | 502067679</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">

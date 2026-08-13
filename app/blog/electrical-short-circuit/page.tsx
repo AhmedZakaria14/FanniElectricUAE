@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `التماس كهربائي​ | فني كهرباء الامارات`,
+  title: `التماس كهربائي​ | فني كهرباء الامارات | 502067679`,
   description: `يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-short-circuit",
@@ -92,9 +92,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            التماس كهربائي​
-          </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">التماس كهربائي​ | 502067679</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة | فني كهرباء الامارات`,
+  title: `سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة | فني كهرباء الامارات | 502067679`,
   description: `تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة وخدمات كهربائي متخصص في دبي والشارقة وعجمان.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/power-outage-reasons",
@@ -72,9 +72,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة
-          </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة | 502067679</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `فني تمديدات كهربائية​ | فني كهرباء الامارات`,
+  title: `فني تمديدات كهربائية​ | فني كهرباء الامارات | 502067679`,
   description: `فني تمديدات كهربائية متخصص في تركيب وصيانة الشبكات الكهربائية داخل المنازل، يضمن توزيع الأحمال بشكل آمن، ويعالج الأعطال بكفاءة وفق المعايير الفنية الحديثة`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-wiring-technician",
@@ -96,9 +96,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            فني تمديدات كهربائية​
-          </h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">فني تمديدات كهربائية​ | 502067679</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
