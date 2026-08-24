@@ -1,6 +1,7 @@
 import { ChevronRight } from '@/components/icons';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import articles from '@/lib/new-articles.json';
 
 
 export const metadata: Metadata = {
@@ -9,9 +10,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog",
   },
+  keywords: ['فني كهرباء الامارات', 'كهربائي دبي', 'كهربائي الشارقة', 'كهربائي عجمان', 'صيانة كهرباء', 'تمديدات كهربائية'],
+  openGraph: {
+    type: 'website',
+    locale: 'ar_AE',
+    url: 'https://www.fannielectricuae.com/blog',
+    title: 'المدونة | فني كهرباء الامارات',
+    description: 'مقالات ونصائح عملية حول صيانة الكهرباء والتمديدات وإصلاح الأعطال في دبي والشارقة وعجمان.',
+    siteName: 'فني كهرباء الامارات',
+  },
 };
 
-const posts = [
+const existingPosts = [
   {
     title: 'ارقام فنيين كهرباء منازل في الإمارات 971502067679+',
     slug: 'electrician-number-uae',
@@ -124,6 +134,14 @@ const posts = [
   }
 ];
 
+const newPosts = articles.map((article) => ({
+  title: article.title,
+  slug: article.slug,
+  excerpt: article.description,
+}));
+
+const posts = [...existingPosts, ...newPosts];
+
 export default function BlogIndex() {
   return (
     <>
@@ -146,6 +164,8 @@ export default function BlogIndex() {
               <Link 
                 key={post.slug} 
                 href={`/blog/${post.slug}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow p-6 flex flex-col h-full group"
               >
                 <h2 className="text-xl font-bold text-amazon-blue mb-3 group-hover:text-amazon-orange transition-colors">

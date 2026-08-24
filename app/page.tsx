@@ -2,6 +2,7 @@ import { CheckCircle2,Clock,MessageCircle,PhoneCall,ShieldCheck,Wrench,Zap } fro
 import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
+import articles from '@/lib/new-articles.json';
 
 import BookingForm from '@/components/booking-form';
 import CoverageSection from '@/components/coverage-section';
@@ -140,7 +141,7 @@ export default function Home() {
       <section id="latest-posts" className="px-4 pb-4 max-w-7xl mx-auto w-full">
         <div className="flex items-center justify-between mb-3">
           <h2 className="font-bold text-lg text-amazon-blue">آخر المقالات والنصائح</h2>
-          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات ({22}) &larr;</Link>
+          <Link href="/blog" className="text-sm text-[#007185] hover:text-amazon-orange hover:underline font-bold">عرض كل المقالات ({37}) &larr;</Link>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {/* Post 1 */}
@@ -191,6 +192,19 @@ export default function Home() {
             <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">أسباب انقطاع الكهرباء المفاجئ، انقطاع التيار عن المكيفات، وطرق التعامل الآمنة مع القواطع.</p>
             <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
           </Link>
+          {articles.slice(0, 4).map((article) => (
+            <a
+              key={article.slug}
+              href={`/blog/${article.slug}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white p-4 shadow-sm border border-gray-200 flex flex-col h-full cursor-pointer hover:shadow-md transition-shadow group"
+            >
+              <h3 className="font-bold text-sm mb-2 group-hover:text-amazon-orange transition-colors">{article.title}</h3>
+              <p className="text-sm text-gray-600 mb-2 flex-grow line-clamp-2">{article.description}</p>
+              <span className="text-xs text-[#007185] font-bold mt-auto">اقرأ المزيد &rarr;</span>
+            </a>
+          ))}
         </div>
       </section>
 
