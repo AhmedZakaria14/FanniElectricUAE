@@ -5,8 +5,8 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `أفضل كهربائي في دبي متاح 24 ساعة | +201010742430+ | الموقع متاح للإيجار`,
-  description: `الموقع متاح للإيجار. للتواصل: +201010742430. هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +201010742430+.`,
+  title: `أفضل كهربائي في دبي متاح 24 ساعة | +201010742430 | الموقع متاح للإيجار`,
+  description: `الموقع متاح للإيجار. للتواصل: +201010742430. هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +201010742430.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-24h",
   },
@@ -49,7 +49,7 @@ export default function BlogPost() {
             العودة للمدونة
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            كهربائي في دبي متاح 24 ساعة | +201010742430+
+            كهربائي في دبي متاح 24 ساعة | +201010742430
           </h1>
         </div>
 
@@ -58,7 +58,7 @@ export default function BlogPost() {
             <div className="prose prose-lg max-w-none prose-headings:text-amazon-blue prose-a:text-amazon-orange hover:prose-a:text-orange-600 prose-img:rounded-xl">
               <div dangerouslySetInnerHTML={{ __html: `
 <blockquote dir="rtl" class="my-6 p-4 rounded-xl border-r-4 border-amazon-orange bg-amber-50/80 text-amazon-blue font-bold text-base md:text-lg leading-relaxed shadow-sm">
-"هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +201010742430+."
+"هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +201010742430."
 </blockquote>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">أصبح البحث عن كهربائي في دبي موثوق حاجة يومية لا يمكن الاستغناء عنها، فمع الاعتماد الكامل على الأجهزة الكهربائية ومكيفات الهواء التي تعمل بلا توقف في أجواء دبي الحارة، تتزايد فرص حدوث أعطال مفاجئة تحتاج تدخلا سريعا وآمنا، إذا كنت تبحث عن كهربجي في دبي يصلك في أي وقت، فأنت في المكان الصحيح، في هذا المقال نستعرض بالتفصيل كل ما يتعلق بخدمات الكهرباء في دبي، من أسباب الأعطال إلى الأسعار وطرق اختيار الفني المناسب لمنزلك أو منشأتك التجارية.</p>
 <h2 dir="rtl" id="section-1" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">لماذا يعتبر البحث عن كهربائي في دبي ضرورة يومية؟</h2>
