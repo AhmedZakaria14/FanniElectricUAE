@@ -14,7 +14,7 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <Link href="/" className="text-2xl font-bold flex items-center gap-2">
               <Image 
-                src="/logo.svg" 
+                src="/logo.png" 
                 alt="فني كهرباء الامارات" 
                 width={40} 
                 height={40} 
