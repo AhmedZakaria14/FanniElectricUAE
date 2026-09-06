@@ -5,8 +5,8 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `كهربائي منازل في دبي خدمات موثوقة على مدار الساعة | فني كهرباء الامارات | 502067679 | الموقع متاح للإيجار`,
-  description: `الموقع متاح للإيجار. للتواصل: +20 10 10742430. كهربائي منازل في دبي متخصص في إصلاح الأعطال والتمديدات الكهربائية، تواصل مع فني كهرباء معتمد في الإمارات الآن، والمناطق التي تغطيها شركتنا.`,
+  title: `كهربائي منازل في دبي خدمات موثوقة على مدار الساعة | فني كهرباء الامارات | +201010742430 | الموقع متاح للإيجار`,
+  description: `الموقع متاح للإيجار. للتواصل: +201010742430. كهربائي منازل في دبي متخصص في إصلاح الأعطال والتمديدات الكهربائية، تواصل مع فني كهرباء معتمد في الإمارات الآن، والمناطق التي تغطيها شركتنا.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-services",
   },
@@ -76,7 +76,7 @@ export default function BlogPost() {
             <ChevronRight className="w-5 h-5 ml-1" />
             العودة للمدونة
           </Link>
-          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">كهربائي منازل في دبي خدمات موثوقة على مدار الساعة | 502067679</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">كهربائي منازل في دبي خدمات موثوقة على مدار الساعة | +201010742430</h1>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
