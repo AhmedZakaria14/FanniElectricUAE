@@ -68,7 +68,7 @@ export default function BlogPost() {
 <h3 dir="rtl" id="section-6" class="text-xl font-bold text-amazon-blue mt-6 mb-3">3- أعطال أخرى شائعة</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">وميض المصابيح، ارتفاع الفاتورة، وسخونة المقابس عند اللمس.</p>
 <h2 dir="rtl" id="section-7" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كيف تختار كهربائي بالشارقة بثقة تامة؟</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">احرص على سرعة الاستجابة (30-45 دقيقة)، وضوح التسعيرة، وتغطية مناطق المجاز، التعاون، الخان، مويلح، والنهضة عبر الاتصال بـ <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">احرص على سرعة الاستجابة (30-45 دقيقة)، وضوح التسعيرة، وتغطية مناطق المجاز، التعاون، الخان، مويلح، والنهضة عبر الاتصال بـ <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h2 dir="rtl" id="section-8" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">شركات كهرباء في الشارقة: كيف تفرق بينها؟</h2>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">الشركات المعتمدة مثل فني كهرباء الإمارات تقدم ضماناً ورسائل تسعير واضحة قبل البدء وفرق طوارئ جاهزة دائماً.</p>
 <h2 dir="rtl" id="section-9" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">رسوم توصيل الكهرباء في الشارقة</h2>
@@ -79,7 +79,7 @@ export default function BlogPost() {
 <li dir="rtl">استبدال الأسلاك القديمة وعمل صيانة سنوية دورية.</li>
 </ul>
 <h2 dir="rtl" id="section-11" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كهرباء الشارقة والجهة الحكومية المسؤولة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">هيئة كهرباء ومياه الشارقة هي الجهة الحكومية المسؤولة عن الشبكة العامة والعدادات، أما الأعطال والتمديدات المنزلية الداخلية فستحتاج فيها لفني معتمد عبر الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">هيئة كهرباء ومياه الشارقة هي الجهة الحكومية المسؤولة عن الشبكة العامة والعدادات، أما الأعطال والتمديدات المنزلية الداخلية فستحتاج فيها لفني معتمد عبر الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h2 dir="rtl" id="section-12" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة</h2>
 <h3 dir="rtl" id="section-13" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو راتب فني الكهرباء في الشارقة؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">يختلف بحسب المهارات والخبرة الميدانية والتراخيص الحاصل عليها.</p>
@@ -88,7 +88,7 @@ export default function BlogPost() {
 <h3 dir="rtl" id="section-15" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هي أسماء شركات كهرباء في الإمارات؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">من أبرز مقدمي الخدمة المنزلية السريعة شركة فني كهرباء الإمارات التي تغطي دبي والشارقة وعجمان.</p>
 <h2 dir="rtl" id="section-16" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل الآن بفني كهرباء الإمارات على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> أو قم بالحجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز الإلكتروني</a> ليصلك الفني فوراً.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل الآن بفني كهرباء الإمارات على الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> أو قم بالحجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز الإلكتروني</a> ليصلك الفني فوراً.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li><li dir="rtl">اكتشف أهم <a href="/blog/power-outage-reasons" class="text-[#007185] hover:underline font-bold">أسباب انقطاع الكهرباء في المنزل</a>.</li></ul>` }} />
             </div>
           </main>

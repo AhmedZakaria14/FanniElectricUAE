@@ -94,13 +94,13 @@ export default function BlogPost() {
 </ul>
 <h2 dir="rtl" id="section-16" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة حول خدماتنا</h2>
 <h3 dir="rtl" id="section-17" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو رقم كهربائي طوارئ في دبي والشارقة وعجمان؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل بنا على <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع خدمة طوارئ.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل بنا على <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع خدمة طوارئ.</p>
 <h3 dir="rtl" id="section-18" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كم يستغرق وصول الفني بعد التواصل؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">يتراوح وقت الوصول بين 30 و45 دقيقة بفضل الانتشار الجغرافي الواسع.</p>
 <h3 dir="rtl" id="section-19" class="text-xl font-bold text-amazon-blue mt-6 mb-3">هل توجد ضمانات على أعمال الصيانة والتركيب؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نعم، نوفر ضماناً معتمداً ومكتوباً على كافة الإصلاحات وقطع الغيار.</p>
 <h2 dir="rtl" id="section-20" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الخاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل الآن مع فني كهرباء الإمارات على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> أو احجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> ليحل الفني المشكلة فوراً.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل الآن مع فني كهرباء الإمارات على الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> أو احجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> ليحل الفني المشكلة فوراً.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li></ul>` }} />
             </div>
           </main>

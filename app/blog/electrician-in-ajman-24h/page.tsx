@@ -74,7 +74,7 @@ export default function BlogPost() {
 <h3 dir="rtl" id="section-9" class="text-xl font-bold text-amazon-blue mt-6 mb-3">أسباب انقطاع الكهرباء المفاجئ</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">الحمل الزائد على قاطع واحد أو حدوث شورت في أحد الأجهزة السلكية.</p>
 <h3 dir="rtl" id="section-10" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كيف تتصرف عند شم رائحة احتراق أو رؤية شرارة؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">افصل التيار فوراً من اللوحة الرئيسية ولا تلمس أي مفتاح واتصل بنا على <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">افصل التيار فوراً من اللوحة الرئيسية ولا تلمس أي مفتاح واتصل بنا على <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h2 dir="rtl" id="section-11" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كيف تجد كهربائي قريب مني في عجمان بسرعة؟</h2>
 <h3 dir="rtl" id="section-12" class="text-xl font-bold text-amazon-blue mt-6 mb-3">أحياء ومناطق عجمان التي نغطيها بالكامل</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">النعيمية، الرميلة، الراشدية، الروضة، المويهات، الجرف، الحميدية، والبستان.</p>
@@ -87,13 +87,13 @@ export default function BlogPost() {
 </ul>
 <h2 dir="rtl" id="section-15" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة حول خدمات الكهرباء في عجمان</h2>
 <h3 dir="rtl" id="section-16" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو رقم كهرباء عجمان المجاني؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">لصيانة الأعطال في منزلك تواصل معنا مباشرة على <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">لصيانة الأعطال في منزلك تواصل معنا مباشرة على <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h3 dir="rtl" id="section-17" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كم سعر تصليح الكهرباء في عجمان؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نقدم أسعاراً شفافة تنافسية نحددها مسبقاً قبل الشروع بالإصلاح.</p>
 <h3 dir="rtl" id="section-18" class="text-xl font-bold text-amazon-blue mt-6 mb-3">هل توجد خدمة صيانة كهرباء طوارئ في الليل؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نعم، الخدمة تعمل طوال 24 ساعة يومياً على مدار الأسبوع.</p>
 <h2 dir="rtl" id="section-19" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الخاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">احفظ رقم فني كهرباء الإمارات <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>، أو احجز مباشرة عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> للحصول على أسرع وأمن خدمة كهربائي في عجمان.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">احفظ رقم فني كهرباء الإمارات <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>، أو احجز مباشرة عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> للحصول على أسرع وأمن خدمة كهربائي في عجمان.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li></ul>` }} />
             </div>
           </main>

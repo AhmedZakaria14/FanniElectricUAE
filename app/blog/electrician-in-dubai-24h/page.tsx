@@ -95,7 +95,7 @@ export default function BlogPost() {
 <h2 dir="rtl" id="section-12" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كم سعر الكهرباء في دبي ومعدلات الفوترة؟</h2>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تحتسب فاتورة الكهرباء عادة بناء على شرائح استهلاك تصاعدية. ينصح الخبراء باستخدام مصابيح LED الموفرة للطاقة وإجراء فحص دوري للتأسيسات الكهربائية.</p>
 <h2 dir="rtl" id="section-13" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كيف أجد كهربائي قريب مني في دبي بسرعة؟</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">من أكثر العبارات بحثا عند حدوث عطل مفاجئ هي كهربائي قريب مني. وزعنا فرقنا الفنية بشكل استراتيجي في مختلف أحياء دبي، بحيث يصل الفني إلى موقعك خلال وقت قصير جدا بعد الاتصال على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">من أكثر العبارات بحثا عند حدوث عطل مفاجئ هي كهربائي قريب مني. وزعنا فرقنا الفنية بشكل استراتيجي في مختلف أحياء دبي، بحيث يصل الفني إلى موقعك خلال وقت قصير جدا بعد الاتصال على الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h3 dir="rtl" id="section-14" class="text-xl font-bold text-amazon-blue mt-6 mb-3">مميزات الاعتماد على فني قريب من موقعك</h3>
 <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4">
 <li dir="rtl">تقليل وقت الانتظار بشكل ملحوظ في حالات الطوارئ.</li>
@@ -118,7 +118,7 @@ export default function BlogPost() {
 </ul>
 <h2 dir="rtl" id="section-19" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة</h2>
 <h3 dir="rtl" id="section-20" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو رقم كهرباء دبي المجاني؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">للأعطال الخاصة داخل منزلك، يمكنك التواصل مباشرة مع فني كهرباء الامارات على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> في أي وقت.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">للأعطال الخاصة داخل منزلك، يمكنك التواصل مباشرة مع فني كهرباء الامارات على الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> في أي وقت.</p>
 <h3 dir="rtl" id="section-21" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هي شركات تصليح الكهرباء في دبي؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">يعد فريق فني كهرباء الإمارات خياراً موثوقاً يغطي دبي والشارقة وعجمان بفرق طوارئ تعمل 24 ساعة.</p>
 <h3 dir="rtl" id="section-22" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كم يتقاضى فني الكهرباء في دبي؟</h3>
@@ -126,7 +126,7 @@ export default function BlogPost() {
 <h3 dir="rtl" id="section-23" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هي أسماء شركات كهرباء في الإمارات؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تتنوع بين الجهات الحكومية والشركات المتخصصة في الصيانة المنزلية مثل فني كهرباء الإمارات.</p>
 <h2 dir="rtl" id="section-24" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل معنا الآن على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع استجابة وأفضل جودة عمل، أو عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز</a> الفوري.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل معنا الآن على الرقم <a href="tel:+201010742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع استجابة وأفضل جودة عمل، أو عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز</a> الفوري.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li><li dir="rtl">اكتشف أهم <a href="/blog/power-outage-reasons" class="text-[#007185] hover:underline font-bold">أسباب انقطاع الكهرباء في المنزل</a>.</li></ul>` }} />
             </div>
           </main>

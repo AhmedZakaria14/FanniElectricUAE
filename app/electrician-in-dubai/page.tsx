@@ -344,12 +344,12 @@ export default function ElectricianInDubai() {
                 <p className="text-sm text-gray-500 mt-2">اتصل بنا للتدخل السريع أو حجز التركيبات</p>
               </div>
 
-              <a href="tel:+20 10 10742430" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
+              <a href="tel:+201010742430" className="w-full bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3.5 rounded-full shadow-sm transition-all duration-200 flex flex-col items-center justify-center gap-1 mb-4 border border-[#F2C200]">
                 <span className="text-xs font-normal">خط ساخن مباشر</span>
                 <span className="text-lg tracking-wider" dir="ltr">+20 10 10742430</span>
               </a>
 
-              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
+              <a href="https://wa.me/201010742430" target="_blank" rel="noopener noreferrer" className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3 rounded-full shadow-sm transition-all duration-200 flex items-center justify-center gap-2 mb-6">
                 <MessageCircle className="w-5 h-5" /> تحدث عبر واتساب
               </a>
 

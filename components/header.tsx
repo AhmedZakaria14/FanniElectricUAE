@@ -26,7 +26,7 @@ export default function Header() {
           </div>
           
           <div className="md:hidden flex items-center">
-             <a href="tel:+20 10 10742430" className="text-white hover:text-amazon-orange flex items-center gap-1">
+             <a href="tel:+201010742430" className="text-white hover:text-amazon-orange flex items-center gap-1">
                <PhoneCall className="h-5 w-5" />
              </a>
           </div>
@@ -37,7 +37,7 @@ export default function Header() {
 
         {/* Desktop Phone */}
         <div className="hidden md:flex items-center gap-4 ml-2">
-          <a href="tel:+20 10 10742430" className="flex flex-col items-end border border-transparent hover:border-white p-1 cursor-pointer rounded">
+          <a href="tel:+201010742430" className="flex flex-col items-end border border-transparent hover:border-white p-1 cursor-pointer rounded">
             <span className="text-[10px] text-gray-300">الموقع متاح للإيجار</span>
             <span dir="ltr" className="text-sm font-bold flex items-center gap-1"><PhoneCall className="h-4 w-4" />+20 10 10742430</span>
           </a>

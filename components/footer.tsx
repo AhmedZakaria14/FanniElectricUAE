@@ -58,8 +58,8 @@ export default function Footer() {
             <ul className="space-y-2.5 text-gray-300">
               <li><Link href="/blog" className="hover:underline hover:text-amazon-orange transition-colors">المدونة والنصائح</Link></li>
               <li><Link href="/#booking" className="hover:underline hover:text-amazon-orange transition-colors">تواصل للإيجار</Link></li>
-              <li><Link href="tel:+20 10 10742430" className="hover:underline hover:text-amazon-orange transition-colors">اتصل بالدعم الفني</Link></li>
-              <li><Link href="https://wa.me/+20 10 10742430" target="_blank" className="hover:underline hover:text-amazon-orange transition-colors">تواصل واتساب مباشر</Link></li>
+              <li><Link href="tel:+201010742430" className="hover:underline hover:text-amazon-orange transition-colors">اتصل بالدعم الفني</Link></li>
+              <li><Link href="https://wa.me/201010742430" target="_blank" className="hover:underline hover:text-amazon-orange transition-colors">تواصل واتساب مباشر</Link></li>
               <li><Link href="/" className="hover:underline hover:text-amazon-orange transition-colors">الأسئلة الشائعة</Link></li>
             </ul>
           </div>

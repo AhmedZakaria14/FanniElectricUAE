@@ -92,7 +92,7 @@ export default function CoverageSection() {
 
         <div className="mt-12 p-5 bg-blue-50 border border-blue-100 rounded-lg text-center">
           <p className="text-sm md:text-base text-amazon-blue font-medium">
-            * إذا لم تجد منطقتك مذكورة أعلاه، يرجى التواصل معنا عبر <a href="https://wa.me/+20 10 10742430" className="font-bold underline">الواتساب</a> للتحقق من إمكانية التغطية.
+            * إذا لم تجد منطقتك مذكورة أعلاه، يرجى التواصل معنا عبر <a href="https://wa.me/201010742430" className="font-bold underline">الواتساب</a> للتحقق من إمكانية التغطية.
           </p>
         </div>
       </div>
