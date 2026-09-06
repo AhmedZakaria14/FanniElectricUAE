@@ -15,7 +15,7 @@ import maintenanceElectrician from '@/src/assets/images/maintenance_electrician_
 
 export const metadata: Metadata = {
   title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان | الموقع متاح للإيجار",
-  description: "الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
+  description: "الموقع متاح للإيجار. للتواصل: +201010742430. أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
   alternates: {
     canonical: "https://www.fannielectricuae.com/",
   },
@@ -232,7 +232,7 @@ export default function Home() {
             <div className="bg-white p-4 shadow-sm border border-gray-200 text-center">
               <h3 className="font-bold text-sm mb-2">في حالة الطوارئ؟ متاحون 24/7</h3>
               <div className="flex items-center justify-center gap-1 text-[#007185] font-bold text-sm mb-3">
-                <PhoneCall className="w-4 h-4" /> +20 10 10742430
+                <PhoneCall className="w-4 h-4" /> +201010742430
               </div>
               <a href="https://wa.me/201010742430" target="_blank" rel="noopener noreferrer" className="inline-flex w-full items-center justify-center gap-2 bg-white hover:bg-gray-50 text-amazon-blue px-4 py-2 rounded font-bold transition-colors text-sm shadow-sm border border-gray-300">
                 <MessageCircle className="w-4 h-4 text-green-500 fill-current" />
