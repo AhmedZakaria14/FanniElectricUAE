@@ -12,13 +12,14 @@ export default function Header() {
         {/* Top items & Logo row for mobile */}
         <div className="flex items-center justify-between w-full md:w-auto">
           <div className="flex items-center gap-2">
-            <Link href="/" className="text-2xl font-bold flex items-center gap-2">
+            <Link href="/" className="text-2xl font-bold flex items-center gap-3">
               <Image 
                 src="/logo.png" 
                 alt="فني كهرباء الامارات" 
-                width={40} 
-                height={40} 
-                className="object-contain"
+                width={72} 
+                height={72} 
+                className="h-16 w-16 md:h-20 md:w-20 flex-shrink-0 object-contain"
+                priority
               />
               <div>فني كهرباء الامارات<br/><span className="text-[10px] text-white tracking-widest font-normal uppercase">FANNIELECTRICUAE</span></div>
             </Link>
