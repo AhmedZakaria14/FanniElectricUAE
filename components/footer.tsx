@@ -67,13 +67,13 @@ export default function Footer() {
       </div>
       
       <div className="bg-[#131A22] w-full pt-8 pb-12 mt-4 text-center">
-        <div className="flex justify-center items-center gap-2 mb-6">
+        <div className="flex justify-center items-center gap-3 mb-6">
           <Image 
             src="/logo.png" 
             alt="فني كهرباء الامارات" 
-            width={32} 
-            height={32} 
-            className="object-contain"
+            width={56} 
+            height={56} 
+            className="h-14 w-14 flex-shrink-0 object-contain"
           />
           <div className="text-xl font-bold text-white leading-none">فني كهرباء الامارات</div>
         </div>
