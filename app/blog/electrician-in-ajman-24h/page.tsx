@@ -5,8 +5,8 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `أفضل كهربائي في عجمان | +201010742430+ | الموقع متاح للإيجار`,
-  description: `الموقع متاح للإيجار. للتواصل: +201010742430. هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على +201010742430+.`,
+  title: `أفضل كهربائي في عجمان | +201010742430 | الموقع متاح للإيجار`,
+  description: `الموقع متاح للإيجار. للتواصل: +201010742430. هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على +201010742430.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-ajman-24h",
   },
@@ -44,7 +44,7 @@ export default function BlogPost() {
             العودة للمدونة
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            كهربائي في عجمان | +201010742430+
+            كهربائي في عجمان | +201010742430
           </h1>
         </div>
 
@@ -53,7 +53,7 @@ export default function BlogPost() {
             <div className="prose prose-lg max-w-none prose-headings:text-amazon-blue prose-a:text-amazon-orange hover:prose-a:text-orange-600 prose-img:rounded-xl">
               <div dangerouslySetInnerHTML={{ __html: `
 <blockquote dir="rtl" class="my-6 p-4 rounded-xl border-r-4 border-amazon-orange bg-amber-50/80 text-amazon-blue font-bold text-base md:text-lg leading-relaxed shadow-sm">
-"هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على +201010742430+."
+"هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على +201010742430."
 </blockquote>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">البحث عن كهربائي في عجمان محترف وسريع الاستجابة يعد من الأمور الضرورية لجميع السكان وأصحاب المحلات التجارية. الأعطال الكهربائية تحدث دون سابق إنذار، وتأجيل حلها قد يسبب أضرارًا جسيمة في الأجهزة أو يهدد سلامة المبنى.</p>
 <h2 dir="rtl" id="section-1" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">لماذا يحتاج كل منزل في عجمان إلى فني كهربائي موثوق؟</h2>
