@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة",
   description:
     "أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +40,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "HomeAndConstructionBusiness",
               name: "فني كهرباء الإمارات",
-              image: "https://fannielectricuae.com/logo.png",
+              image: "https://fannielectricuae.com/logo.svg",
               "@id": "",
               url: "https://fannielectricuae.com",
               telephone: "+971522815005",
