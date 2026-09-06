@@ -5,7 +5,7 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `كهربائي محترف في الشارقة | +201010742430+ | الموقع متاح للإيجار`,
+  title: `كهربائي محترف في الشارقة | +201010742430 | الموقع متاح للإيجار`,
   description: `الموقع متاح للإيجار. للتواصل: +201010742430. هل تبحث عن كهربائي بالشارقة يحل مشكلتك الكهربائية بسرعة وأمان؟ اكتشف في هذا الدليل أسباب انقطاع الكهرباء وأفضل الطرق لاختيار فني موثوق ومحترف.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-sharjah-guide",
@@ -41,7 +41,7 @@ export default function BlogPost() {
             العودة للمدونة
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            كهربائي في الشارقة | +201010742430+
+            كهربائي في الشارقة | +201010742430
           </h1>
         </div>
 
