@@ -14,7 +14,7 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <Link href="/" className="text-2xl font-bold flex items-center gap-2">
               <Image 
-                src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png" 
+                src="/logo.svg" 
                 alt="فني كهرباء الامارات" 
                 width={40} 
                 height={40} 
