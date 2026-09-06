@@ -69,7 +69,7 @@ export default function Footer() {
       <div className="bg-[#131A22] w-full pt-8 pb-12 mt-4 text-center">
         <div className="flex justify-center items-center gap-2 mb-6">
           <Image 
-            src="https://res.cloudinary.com/dxvjqrb9l/image/upload/v1781707687/%D9%81%D9%86%D9%8A_%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1_%D8%AF%D8%A8%D9%8A_ufefpo.png" 
+            src="/logo.svg" 
             alt="فني كهرباء الامارات" 
             width={32} 
             height={32} 
