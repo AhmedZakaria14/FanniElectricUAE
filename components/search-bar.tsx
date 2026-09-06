@@ -8,15 +8,15 @@ import Link from 'next/link';
 
 // Mock data for search
 const searchData = [
-  { id: 1, title: 'إصلاح أعطال كهربائية طارئة', href: '/services/emergency-repair', category: 'خدمات الطوارئ' },
-  { id: 2, title: 'تمديدات كهربائية وتأسيس', href: '/services/wiring', category: 'التركيبات' },
-  { id: 3, title: 'صيانة دورية للمباني', href: '/services/maintenance', category: 'الصيانة' },
-  { id: 4, title: 'فني كهرباء في دبي', href: '/services/emergency-repair', category: 'المناطق' },
-  { id: 5, title: 'فني كهرباء في الشارقة', href: '/services/emergency-repair', category: 'المناطق' },
-  { id: 6, title: 'فني كهرباء في عجمان', href: '/services/emergency-repair', category: 'المناطق' },
-  { id: 7, title: 'تصليح شورت كهربائي', href: '/services/emergency-repair', category: 'خدمات الطوارئ' },
-  { id: 8, title: 'كهربائي منازل', href: '/services/wiring', category: 'التركيبات' },
-  { id: 9, title: 'فحص حراري للوحات الكهرباء', href: '/services/maintenance', category: 'الصيانة' }
+  { id: 1, title: 'إصلاح أعطال كهربائية طارئة | الموقع متاح للإيجار', href: '/services/emergency-repair', category: 'خدمات الطوارئ' },
+  { id: 2, title: 'تمديدات كهربائية وتأسيس | الموقع متاح للإيجار', href: '/services/wiring', category: 'التركيبات' },
+  { id: 3, title: 'صيانة دورية للمباني | الموقع متاح للإيجار', href: '/services/maintenance', category: 'الصيانة' },
+  { id: 4, title: 'فني كهرباء في دبي | الموقع متاح للإيجار', href: '/services/emergency-repair', category: 'المناطق' },
+  { id: 5, title: 'فني كهرباء في الشارقة | الموقع متاح للإيجار', href: '/services/emergency-repair', category: 'المناطق' },
+  { id: 6, title: 'فني كهرباء في عجمان | الموقع متاح للإيجار', href: '/services/emergency-repair', category: 'المناطق' },
+  { id: 7, title: 'تصليح شورت كهربائي | الموقع متاح للإيجار', href: '/services/emergency-repair', category: 'خدمات الطوارئ' },
+  { id: 8, title: 'كهربائي منازل | الموقع متاح للإيجار', href: '/services/wiring', category: 'التركيبات' },
+  { id: 9, title: 'فحص حراري للوحات الكهرباء | الموقع متاح للإيجار', href: '/services/maintenance', category: 'الصيانة' }
 ];
 
 export default function SearchBar() {

@@ -11,8 +11,8 @@ import electricalRepair2 from '@/src/assets/images/emergency_repair_2_1781705617
 import emergencyNight from '@/src/assets/images/emergency_night_1781706888867.jpg';
 
 export const metadata = {
-  title: 'إصلاح أعطال كهربائية طارئة | دبي، الشارقة، عجمان | فني كهرباء الامارات',
-  description: 'أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.',
+  title: 'إصلاح أعطال كهربائية طارئة | دبي، الشارقة، عجمان | فني كهرباء الامارات | الموقع متاح للإيجار',
+  description: 'الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/emergency-repair",
   },
@@ -23,7 +23,7 @@ const serviceSchema = {
   "@type": "Service",
   "serviceType": "إصلاح أعطال كهربائية طارئة",
   "name": "خدمة إصلاح أعطال كهربائية طارئة فورية في دبي، الشارقة وعجمان",
-  "description": "نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
+  "description": "الموقع متاح للإيجار. للتواصل: +20 10 10742430. نقدم خدمة استجابة سريعة للتعامل مع كافة الحالات الكهربائية الطارئة والمستعجلة. فريقنا من الفنيين المعتمدين والمعدين جيداً يصلون إليك في غضون وقت قصير (30 إلى 45 دقيقة) لتشخيص وإصلاح العطل بأعلى درجات الأمان والاحترافية.",
   "provider": {
     "@type": "Organization",
     "name": "فني كهرباء الامارات",
@@ -341,7 +341,7 @@ export default function EmergencyRepairService() {
                 <div className="flex gap-2 items-center"><ShieldCheck className="w-4 h-4 text-green-600" /> <span className="text-gray-800 font-medium">ضمان 30 يوم على الإصلاحات الطارئة</span></div>
               </div>
 
-              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
+              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
                 <MessageCircle className="w-5 h-5" /> واتساب للطوارئ الفورية
               </a>
               <a href="#booking-form-section" className="w-full bg-[#FFA41C] hover:bg-[#FF9900] text-amazon-blue font-bold py-3 rounded-lg border border-[#FF8F00] shadow-sm transition duration-200 text-sm flex items-center justify-center">

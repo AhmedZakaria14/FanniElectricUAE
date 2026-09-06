@@ -39,7 +39,7 @@ async function processDoc(docInfo) {
     
     // Check for title or meta
     if (!isCapturingContent && tagName === 'p' && text.includes('Meta description:')) {
-       metaDescription = text.replace('Meta description:', '').replace(/"/g, '').trim();
+       metaDescription = text.replace('Meta description:'الموقع متاح للإيجار. للتواصل: +20 10 10742430. , '').replace(/"/g, '').trim();
        return;
     }
     if (!isCapturingContent && tagName === 'p' && text.includes('وصف الميتا:')) {

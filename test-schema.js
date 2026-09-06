@@ -7,8 +7,8 @@ const schema = {
   "logo": "https://www.fannielectricuae.com/logo.png",
   "image": "https://www.fannielectricuae.com/logo.png",
   "priceRange": "$$",
-  "description": "أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!",
-  "telephone": "+971502067679",
+  "description": "الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!",
+  "telephone": "+20 10 10742430",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "دبي",

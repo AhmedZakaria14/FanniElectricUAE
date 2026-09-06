@@ -10,8 +10,8 @@ import maintenanceElectrician2 from '@/src/assets/images/maintenance_testing_178
 import panelDubai from '@/src/assets/images/panel_dubai_1781706867088.jpg';
 
 export const metadata = {
-  title: 'عقود صيانة كهربائية وقائية ودورية للحماية وتوفير الطاقة | فني كهرباء الامارات',
-  description: 'أفضل خدمات الصيانة الكهربائية الوقائية والدورية في دبي، الشارقة، وعجمان. فحص حراري، وتقليل الفواتير وعمر أطول للأجهزة. فني معتمد لخدمة المباني.',
+  title: 'عقود صيانة كهربائية وقائية ودورية للحماية وتوفير الطاقة | فني كهرباء الامارات | الموقع متاح للإيجار',
+  description: 'الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل خدمات الصيانة الكهربائية الوقائية والدورية في دبي، الشارقة، وعجمان. فحص حراري، وتقليل الفواتير وعمر أطول للأجهزة. فني معتمد لخدمة المباني.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/maintenance",
   },
@@ -210,7 +210,7 @@ export default function MaintenanceService() {
                 <div className="flex gap-2 items-center"><FileText className="w-4 h-4 text-green-600" /> <span className="text-gray-800 font-medium">إصدار تقرير كفاءة شامل وموثوق</span></div>
               </div>
 
-              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
+              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
                 <MessageCircle className="w-5 h-5" /> استفسر عن عقود الصيانة (واتساب)
               </a>
               <a href="#booking-form-section" className="w-full bg-[#FFA41C] hover:bg-[#FF9900] text-amazon-blue font-bold py-3 rounded-lg border border-[#FF8F00] shadow-sm transition duration-200 text-sm flex items-center justify-center">

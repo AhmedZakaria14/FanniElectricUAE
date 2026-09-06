@@ -14,8 +14,8 @@ import wiringInstallation from '@/src/assets/images/wiring_installation_17817045
 import maintenanceElectrician from '@/src/assets/images/maintenance_electrician_1781704595136.jpg';
 
 export const metadata: Metadata = {
-  title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
-  description: "أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
+  title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان | الموقع متاح للإيجار",
+  description: "الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع.",
   alternates: {
     canonical: "https://www.fannielectricuae.com/",
   },
@@ -45,9 +45,9 @@ export default function Home() {
             </p>
             <div className="flex gap-2 pt-2">
               <a href="#booking" className="bg-amazon-blue text-white px-6 py-2 rounded-full font-bold shadow-md hover:bg-gray-800 transition-colors text-sm flex items-center justify-center">
-                احجز الخدمة الحين
+                تواصل للإيجار
               </a>
-              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="bg-white text-amazon-blue px-4 py-2 rounded-full font-bold border border-gray-300 shadow-sm flex items-center justify-center gap-2 hover:bg-gray-50 transition-colors text-sm">
+              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="bg-white text-amazon-blue px-4 py-2 rounded-full font-bold border border-gray-300 shadow-sm flex items-center justify-center gap-2 hover:bg-gray-50 transition-colors text-sm">
                 <MessageCircle className="h-4 w-4 text-green-500 fill-current" />
                 واتساب فوري
               </a>
@@ -101,7 +101,7 @@ export default function Home() {
               />
             </div>
             <p className="text-sm text-gray-600 mb-2 flex-grow">تصليح فوري للأعطال الطارئة في أي وقت لضمان سلامة بيتك.</p>
-            <span className="text-sm text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">احجز الخدمة الحين &larr;</span>
+            <span className="text-sm text-[#007185] font-bold group-hover:text-amazon-orange group-hover:underline mt-auto">تواصل للإيجار &larr;</span>
           </Link>
 
           {/* Service 2 */}
@@ -232,9 +232,9 @@ export default function Home() {
             <div className="bg-white p-4 shadow-sm border border-gray-200 text-center">
               <h3 className="font-bold text-sm mb-2">في حالة الطوارئ؟ متاحون 24/7</h3>
               <div className="flex items-center justify-center gap-1 text-[#007185] font-bold text-sm mb-3">
-                <PhoneCall className="w-4 h-4" /> +971 50 206 7679
+                <PhoneCall className="w-4 h-4" /> +20 10 10742430
               </div>
-              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="inline-flex w-full items-center justify-center gap-2 bg-white hover:bg-gray-50 text-amazon-blue px-4 py-2 rounded font-bold transition-colors text-sm shadow-sm border border-gray-300">
+              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="inline-flex w-full items-center justify-center gap-2 bg-white hover:bg-gray-50 text-amazon-blue px-4 py-2 rounded font-bold transition-colors text-sm shadow-sm border border-gray-300">
                 <MessageCircle className="w-4 h-4 text-green-500 fill-current" />
                 راسلنا واتساب الآن
               </a>

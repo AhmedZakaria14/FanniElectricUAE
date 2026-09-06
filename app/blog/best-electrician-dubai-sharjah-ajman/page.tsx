@@ -5,34 +5,34 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `دليل أفضل كهربائي في دبي والشارقة وعجمان | 971502067679+`,
-  description: `تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن 971502067679+`,
+  title: `دليل أفضل كهربائي في دبي والشارقة وعجمان | +20 10 10742430+ | الموقع متاح للإيجار`,
+  description: `الموقع متاح للإيجار. للتواصل: +20 10 10742430. تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن +20 10 10742430+`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/best-electrician-dubai-sharjah-ajman",
   },
 };
 
 const tocItems = [
-  { id: "section-1", title: "لماذا تحتاج إلى أفضل كهربائي في دبي والشارقة وعجمان؟" },
-  { id: "section-2", title: "مخاطر الاستعانة بفني كهرباء غير معتمد" },
-  { id: "section-3", title: "الخدمات التي يقدمها فني كهرباء الإمارات" },
-  { id: "section-4", title: "1. إصلاح الأعطال الطارئة والماس الكهربائي" },
-  { id: "section-5", title: "2. تمديدات وتأسيس كهرباء الفلل والمباني" },
-  { id: "section-6", title: "3. صيانة وإعادة توزيع أحمال اللوحات الرئيسية" },
-  { id: "section-7", title: "4. تركيب الإضاءات والمفاتيح الحديثة" },
-  { id: "section-8", title: "5. تأسيس أنظمة المنازل الذكية" },
-  { id: "section-9", title: "أسباب الأعطال الكهربائية الأكثر شيوعاً وكيفية الوقاية منها" },
-  { id: "section-10", title: "تغطية شاملة لجميع أحياء دبي والشارقة وعجمان" },
-  { id: "section-11", title: "خدمات الكهرباء في دبي" },
-  { id: "section-12", title: "خدمات الكهرباء في الشارقة" },
-  { id: "section-13", title: "خدمات الكهرباء في عجمان" },
-  { id: "section-14", title: "كيف تختار الفني الكهربائي المناسب لمنزلك؟" },
-  { id: "section-15", title: "نصائح هامة للحفاظ على أمان التوصيلات الكهربائية" },
-  { id: "section-16", title: "الأسئلة الشائعة حول خدماتنا" },
-  { id: "section-17", title: "ما هو رقم كهربائي طوارئ في دبي والشارقة وعجمان؟" },
-  { id: "section-18", title: "كم يستغرق وصول الفني بعد التواصل؟" },
-  { id: "section-19", title: "هل توجد ضمانات على أعمال الصيانة والتركيب؟" },
-  { id: "section-20", title: "الخاتمة" }
+  { id: "section-1", title: "لماذا تحتاج إلى أفضل كهربائي في دبي والشارقة وعجمان؟ | الموقع متاح للإيجار" },
+  { id: "section-2", title: "مخاطر الاستعانة بفني كهرباء غير معتمد | الموقع متاح للإيجار" },
+  { id: "section-3", title: "الخدمات التي يقدمها فني كهرباء الإمارات | الموقع متاح للإيجار" },
+  { id: "section-4", title: "1. إصلاح الأعطال الطارئة والماس الكهربائي | الموقع متاح للإيجار" },
+  { id: "section-5", title: "2. تمديدات وتأسيس كهرباء الفلل والمباني | الموقع متاح للإيجار" },
+  { id: "section-6", title: "3. صيانة وإعادة توزيع أحمال اللوحات الرئيسية | الموقع متاح للإيجار" },
+  { id: "section-7", title: "4. تركيب الإضاءات والمفاتيح الحديثة | الموقع متاح للإيجار" },
+  { id: "section-8", title: "5. تأسيس أنظمة المنازل الذكية | الموقع متاح للإيجار" },
+  { id: "section-9", title: "أسباب الأعطال الكهربائية الأكثر شيوعاً وكيفية الوقاية منها | الموقع متاح للإيجار" },
+  { id: "section-10", title: "تغطية شاملة لجميع أحياء دبي والشارقة وعجمان | الموقع متاح للإيجار" },
+  { id: "section-11", title: "خدمات الكهرباء في دبي | الموقع متاح للإيجار" },
+  { id: "section-12", title: "خدمات الكهرباء في الشارقة | الموقع متاح للإيجار" },
+  { id: "section-13", title: "خدمات الكهرباء في عجمان | الموقع متاح للإيجار" },
+  { id: "section-14", title: "كيف تختار الفني الكهربائي المناسب لمنزلك؟ | الموقع متاح للإيجار" },
+  { id: "section-15", title: "نصائح هامة للحفاظ على أمان التوصيلات الكهربائية | الموقع متاح للإيجار" },
+  { id: "section-16", title: "الأسئلة الشائعة حول خدماتنا | الموقع متاح للإيجار" },
+  { id: "section-17", title: "ما هو رقم كهربائي طوارئ في دبي والشارقة وعجمان؟ | الموقع متاح للإيجار" },
+  { id: "section-18", title: "كم يستغرق وصول الفني بعد التواصل؟ | الموقع متاح للإيجار" },
+  { id: "section-19", title: "هل توجد ضمانات على أعمال الصيانة والتركيب؟ | الموقع متاح للإيجار" },
+  { id: "section-20", title: "الخاتمة | الموقع متاح للإيجار" }
 ];
 
 export default function BlogPost() {
@@ -45,7 +45,7 @@ export default function BlogPost() {
             العودة للمدونة
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            أفضل كهربائي في دبي والشارقة وعجمان | 971502067679+
+            أفضل كهربائي في دبي والشارقة وعجمان | +20 10 10742430+
           </h1>
         </div>
 
@@ -54,7 +54,7 @@ export default function BlogPost() {
             <div className="prose prose-lg max-w-none prose-headings:text-amazon-blue prose-a:text-amazon-orange hover:prose-a:text-orange-600 prose-img:rounded-xl">
               <div dangerouslySetInnerHTML={{ __html: `
 <blockquote dir="rtl" class="my-6 p-4 rounded-xl border-r-4 border-amazon-orange bg-amber-50/80 text-amazon-blue font-bold text-base md:text-lg leading-relaxed shadow-sm">
-"تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن 971502067679+"
+"تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن +20 10 10742430+"
 </blockquote>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">البحث عن أفضل كهربائي في دبي والشارقة وعجمان أمر لا غنى عنه لكل منزل أو شركة، فالأنظمة الكهربائية تتطلب صيانة دقيقة ومهارات عالية لتفادي الخطر والحفاظ على الأجهزة الكهربائية.</p>
 <h2 dir="rtl" id="section-1" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">لماذا تحتاج إلى أفضل كهربائي في دبي والشارقة وعجمان؟</h2>
@@ -94,13 +94,13 @@ export default function BlogPost() {
 </ul>
 <h2 dir="rtl" id="section-16" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة حول خدماتنا</h2>
 <h3 dir="rtl" id="section-17" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو رقم كهربائي طوارئ في دبي والشارقة وعجمان؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل بنا على <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a> للحصول على أسرع خدمة طوارئ.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">اتصل بنا على <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع خدمة طوارئ.</p>
 <h3 dir="rtl" id="section-18" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كم يستغرق وصول الفني بعد التواصل؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">يتراوح وقت الوصول بين 30 و45 دقيقة بفضل الانتشار الجغرافي الواسع.</p>
 <h3 dir="rtl" id="section-19" class="text-xl font-bold text-amazon-blue mt-6 mb-3">هل توجد ضمانات على أعمال الصيانة والتركيب؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">نعم، نوفر ضماناً معتمداً ومكتوباً على كافة الإصلاحات وقطع الغيار.</p>
 <h2 dir="rtl" id="section-20" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الخاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل الآن مع فني كهرباء الإمارات على الرقم <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a> أو احجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> ليحل الفني المشكلة فوراً.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل الآن مع فني كهرباء الإمارات على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> أو احجز عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز المباشر</a> ليحل الفني المشكلة فوراً.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">لحل مشاكلك في دبي، تواصل مع <a href="/blog/electrician-in-dubai-24h" class="text-[#007185] hover:underline font-bold">كهربائي منازل في دبي متاح 24 ساعة</a>.</li><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li></ul>` }} />
             </div>
           </main>

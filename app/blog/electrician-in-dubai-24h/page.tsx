@@ -5,38 +5,38 @@ import Link from 'next/link';
 import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
-  title: `أفضل كهربائي في دبي متاح 24 ساعة | 971502067679+`,
-  description: `هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على 971502067679+.`,
+  title: `أفضل كهربائي في دبي متاح 24 ساعة | +20 10 10742430+ | الموقع متاح للإيجار`,
+  description: `الموقع متاح للإيجار. للتواصل: +20 10 10742430. هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +20 10 10742430+.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-24h",
   },
 };
 
 const tocItems = [
-  { id: "section-1", title: "لماذا يعتبر البحث عن كهربائي في دبي ضرورة يومية؟" },
-  { id: "section-2", title: "مخاطر تأجيل إصلاح الأعطال الكهربائية" },
-  { id: "section-3", title: "خدمات كهربائي منازل في دبي التي نقدمها" },
-  { id: "section-4", title: "1. إصلاح الأعطال الطارئة" },
-  { id: "section-5", title: "2. تمديدات وتأسيس كهرباء الفلل والمشاريع الجديدة" },
-  { id: "section-6", title: "3. صيانة دورية ووقائية" },
-  { id: "section-7", title: "4. تركيب أنظمة المنازل الذكية" },
-  { id: "section-8", title: "5. تركيب وفك الإضاءة الديكورية" },
-  { id: "section-9", title: "6. توصيل الأجهزة المنزلية عالية الاستهلاك" },
-  { id: "section-10", title: "ما أسباب انقطاع الكهرباء في دبي وكيفية التعامل معها؟" },
-  { id: "section-11", title: "خطوات أولية عند انقطاع الكهرباء" },
-  { id: "section-12", title: "كم سعر الكهرباء في دبي ومعدلات الفوترة؟" },
-  { id: "section-13", title: "كيف أجد كهربائي قريب مني في دبي بسرعة؟" },
-  { id: "section-14", title: "مميزات الاعتماد على فني قريب من موقعك" },
-  { id: "section-15", title: "مطلوب كهربائي منازل في الإمارات؟ إليك ما يجب معرفته" },
-  { id: "section-16", title: "معايير اختيار الفني أو الشركة المناسبة" },
-  { id: "section-17", title: "أحياء ومناطق دبي التي نغطيها" },
-  { id: "section-18", title: "نصائح للسلامة الكهربائية في المنزل" },
-  { id: "section-19", title: "الأسئلة الشائعة" },
-  { id: "section-20", title: "ما هو رقم كهرباء دبي المجاني؟" },
-  { id: "section-21", title: "ما هي شركات تصليح الكهرباء في دبي؟" },
-  { id: "section-22", title: "كم يتقاضى فني الكهرباء في دبي؟" },
-  { id: "section-23", title: "ما هي أسماء شركات كهرباء في الإمارات؟" },
-  { id: "section-24", title: "خاتمة" }
+  { id: "section-1", title: "لماذا يعتبر البحث عن كهربائي في دبي ضرورة يومية؟ | الموقع متاح للإيجار" },
+  { id: "section-2", title: "مخاطر تأجيل إصلاح الأعطال الكهربائية | الموقع متاح للإيجار" },
+  { id: "section-3", title: "خدمات كهربائي منازل في دبي التي نقدمها | الموقع متاح للإيجار" },
+  { id: "section-4", title: "1. إصلاح الأعطال الطارئة | الموقع متاح للإيجار" },
+  { id: "section-5", title: "2. تمديدات وتأسيس كهرباء الفلل والمشاريع الجديدة | الموقع متاح للإيجار" },
+  { id: "section-6", title: "3. صيانة دورية ووقائية | الموقع متاح للإيجار" },
+  { id: "section-7", title: "4. تركيب أنظمة المنازل الذكية | الموقع متاح للإيجار" },
+  { id: "section-8", title: "5. تركيب وفك الإضاءة الديكورية | الموقع متاح للإيجار" },
+  { id: "section-9", title: "6. توصيل الأجهزة المنزلية عالية الاستهلاك | الموقع متاح للإيجار" },
+  { id: "section-10", title: "ما أسباب انقطاع الكهرباء في دبي وكيفية التعامل معها؟ | الموقع متاح للإيجار" },
+  { id: "section-11", title: "خطوات أولية عند انقطاع الكهرباء | الموقع متاح للإيجار" },
+  { id: "section-12", title: "كم سعر الكهرباء في دبي ومعدلات الفوترة؟ | الموقع متاح للإيجار" },
+  { id: "section-13", title: "كيف أجد كهربائي قريب مني في دبي بسرعة؟ | الموقع متاح للإيجار" },
+  { id: "section-14", title: "مميزات الاعتماد على فني قريب من موقعك | الموقع متاح للإيجار" },
+  { id: "section-15", title: "مطلوب كهربائي منازل في الإمارات؟ إليك ما يجب معرفته | الموقع متاح للإيجار" },
+  { id: "section-16", title: "معايير اختيار الفني أو الشركة المناسبة | الموقع متاح للإيجار" },
+  { id: "section-17", title: "أحياء ومناطق دبي التي نغطيها | الموقع متاح للإيجار" },
+  { id: "section-18", title: "نصائح للسلامة الكهربائية في المنزل | الموقع متاح للإيجار" },
+  { id: "section-19", title: "الأسئلة الشائعة | الموقع متاح للإيجار" },
+  { id: "section-20", title: "ما هو رقم كهرباء دبي المجاني؟ | الموقع متاح للإيجار" },
+  { id: "section-21", title: "ما هي شركات تصليح الكهرباء في دبي؟ | الموقع متاح للإيجار" },
+  { id: "section-22", title: "كم يتقاضى فني الكهرباء في دبي؟ | الموقع متاح للإيجار" },
+  { id: "section-23", title: "ما هي أسماء شركات كهرباء في الإمارات؟ | الموقع متاح للإيجار" },
+  { id: "section-24", title: "خاتمة | الموقع متاح للإيجار" }
 ];
 
 export default function BlogPost() {
@@ -49,7 +49,7 @@ export default function BlogPost() {
             العودة للمدونة
           </Link>
           <h1 className="text-3xl md:text-4xl font-bold text-amazon-blue leading-tight mb-4">
-            كهربائي في دبي متاح 24 ساعة | 971502067679+
+            كهربائي في دبي متاح 24 ساعة | +20 10 10742430+
           </h1>
         </div>
 
@@ -58,7 +58,7 @@ export default function BlogPost() {
             <div className="prose prose-lg max-w-none prose-headings:text-amazon-blue prose-a:text-amazon-orange hover:prose-a:text-orange-600 prose-img:rounded-xl">
               <div dangerouslySetInnerHTML={{ __html: `
 <blockquote dir="rtl" class="my-6 p-4 rounded-xl border-r-4 border-amazon-orange bg-amber-50/80 text-amazon-blue font-bold text-base md:text-lg leading-relaxed shadow-sm">
-"هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على 971502067679+."
+"هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على +20 10 10742430+."
 </blockquote>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">أصبح البحث عن كهربائي في دبي موثوق حاجة يومية لا يمكن الاستغناء عنها، فمع الاعتماد الكامل على الأجهزة الكهربائية ومكيفات الهواء التي تعمل بلا توقف في أجواء دبي الحارة، تتزايد فرص حدوث أعطال مفاجئة تحتاج تدخلا سريعا وآمنا، إذا كنت تبحث عن كهربجي في دبي يصلك في أي وقت، فأنت في المكان الصحيح، في هذا المقال نستعرض بالتفصيل كل ما يتعلق بخدمات الكهرباء في دبي، من أسباب الأعطال إلى الأسعار وطرق اختيار الفني المناسب لمنزلك أو منشأتك التجارية.</p>
 <h2 dir="rtl" id="section-1" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">لماذا يعتبر البحث عن كهربائي في دبي ضرورة يومية؟</h2>
@@ -95,7 +95,7 @@ export default function BlogPost() {
 <h2 dir="rtl" id="section-12" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كم سعر الكهرباء في دبي ومعدلات الفوترة؟</h2>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تحتسب فاتورة الكهرباء عادة بناء على شرائح استهلاك تصاعدية. ينصح الخبراء باستخدام مصابيح LED الموفرة للطاقة وإجراء فحص دوري للتأسيسات الكهربائية.</p>
 <h2 dir="rtl" id="section-13" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">كيف أجد كهربائي قريب مني في دبي بسرعة؟</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">من أكثر العبارات بحثا عند حدوث عطل مفاجئ هي كهربائي قريب مني. وزعنا فرقنا الفنية بشكل استراتيجي في مختلف أحياء دبي، بحيث يصل الفني إلى موقعك خلال وقت قصير جدا بعد الاتصال على الرقم <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a>.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">من أكثر العبارات بحثا عند حدوث عطل مفاجئ هي كهربائي قريب مني. وزعنا فرقنا الفنية بشكل استراتيجي في مختلف أحياء دبي، بحيث يصل الفني إلى موقعك خلال وقت قصير جدا بعد الاتصال على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a>.</p>
 <h3 dir="rtl" id="section-14" class="text-xl font-bold text-amazon-blue mt-6 mb-3">مميزات الاعتماد على فني قريب من موقعك</h3>
 <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4">
 <li dir="rtl">تقليل وقت الانتظار بشكل ملحوظ في حالات الطوارئ.</li>
@@ -118,7 +118,7 @@ export default function BlogPost() {
 </ul>
 <h2 dir="rtl" id="section-19" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">الأسئلة الشائعة</h2>
 <h3 dir="rtl" id="section-20" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هو رقم كهرباء دبي المجاني؟</h3>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">للأعطال الخاصة داخل منزلك، يمكنك التواصل مباشرة مع فني كهرباء الامارات على الرقم <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a> في أي وقت.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">للأعطال الخاصة داخل منزلك، يمكنك التواصل مباشرة مع فني كهرباء الامارات على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> في أي وقت.</p>
 <h3 dir="rtl" id="section-21" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هي شركات تصليح الكهرباء في دبي؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">يعد فريق فني كهرباء الإمارات خياراً موثوقاً يغطي دبي والشارقة وعجمان بفرق طوارئ تعمل 24 ساعة.</p>
 <h3 dir="rtl" id="section-22" class="text-xl font-bold text-amazon-blue mt-6 mb-3">كم يتقاضى فني الكهرباء في دبي؟</h3>
@@ -126,7 +126,7 @@ export default function BlogPost() {
 <h3 dir="rtl" id="section-23" class="text-xl font-bold text-amazon-blue mt-6 mb-3">ما هي أسماء شركات كهرباء في الإمارات؟</h3>
 <p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تتنوع بين الجهات الحكومية والشركات المتخصصة في الصيانة المنزلية مثل فني كهرباء الإمارات.</p>
 <h2 dir="rtl" id="section-24" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خاتمة</h2>
-<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل معنا الآن على الرقم <a href="tel:+971502067679" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+971502067679</a> للحصول على أسرع استجابة وأفضل جودة عمل، أو عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز</a> الفوري.</p>
+<p dir="rtl" class="text-gray-700 leading-relaxed mb-6">تواصل معنا الآن على الرقم <a href="tel:+20 10 10742430" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">+20 10 10742430</a> للحصول على أسرع استجابة وأفضل جودة عمل، أو عبر <a href="https://www.fannielectricuae.com/#booking" target="_blank" rel="noopener noreferrer" class="text-[#007185] hover:underline font-bold">نموذج الحجز</a> الفوري.</p>
 <h2 dir="rtl" class="text-2xl font-bold text-amazon-blue mt-8 mb-4">خدمات ومقالات ذات صلة</h2><ul class="list-disc list-inside text-gray-700 space-y-2 mb-6 ml-4"><li dir="rtl">إذا كنت تسكن في الشارقة، نقدم لك <a href="/blog/electrician-in-sharjah-guide" class="text-[#007185] hover:underline font-bold">خدمات صيانة الأعطال الكهربائية في الشارقة</a>.</li><li dir="rtl">نوفر أيضاً <a href="/blog/home-electrician-ajman-guide" class="text-[#007185] hover:underline font-bold">فني كهربائي متخصص في عجمان</a>.</li><li dir="rtl">اكتشف أهم <a href="/blog/power-outage-reasons" class="text-[#007185] hover:underline font-bold">أسباب انقطاع الكهرباء في المنزل</a>.</li></ul>` }} />
             </div>
           </main>

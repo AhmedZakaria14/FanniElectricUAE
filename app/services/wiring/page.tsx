@@ -10,8 +10,8 @@ import wiringInstallation2 from '@/src/assets/images/wiring_installation_2_17817
 import smartHome from '@/src/assets/images/smart_home_1781706915423.jpg';
 
 export const metadata = {
-  title: 'تمديدات كهربائية للمنازل والمحلات وتأسيس الأنظمة الذكية | فني كهرباء الامارات',
-  description: 'أفضل مقاول تمديدات كهربائية وتأسيس كهرباء للمنازل والمشاريع التجارية في دبي والشارقة وعجمان. موافقات ديوا وتأسيس أنظمة السمارت هوم بأعلى معايير الجودة.',
+  title: 'تمديدات كهربائية للمنازل والمحلات وتأسيس الأنظمة الذكية | فني كهرباء الامارات | الموقع متاح للإيجار',
+  description: 'الموقع متاح للإيجار. للتواصل: +20 10 10742430. أفضل مقاول تمديدات كهربائية وتأسيس كهرباء للمنازل والمشاريع التجارية في دبي والشارقة وعجمان. موافقات ديوا وتأسيس أنظمة السمارت هوم بأعلى معايير الجودة.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/wiring",
   },
@@ -213,7 +213,7 @@ export default function WiringService() {
                 <div className="flex gap-2 items-center"><Clock className="w-4 h-4 text-green-600" /> <span className="text-gray-800 font-medium">التزام تعاقدي بالجداول الزمنية</span></div>
               </div>
 
-              <a href="https://wa.me/971502067679" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
+              <a href="https://wa.me/+20 10 10742430" target="_blank" rel="noopener noreferrer" className="w-full mb-3 bg-[#FFD814] hover:bg-[#F7CA00] text-amazon-blue font-bold py-3 rounded-lg border border-[#F2C200] shadow-sm transition duration-200 text-sm flex items-center justify-center gap-2">
                 <MessageCircle className="w-5 h-5" /> أرسل مخططك عبر واتساب
               </a>
               <a href="#booking-form-section" className="w-full bg-[#FFA41C] hover:bg-[#FF9900] text-amazon-blue font-bold py-3 rounded-lg border border-[#FF8F00] shadow-sm transition duration-200 text-sm flex items-center justify-center">

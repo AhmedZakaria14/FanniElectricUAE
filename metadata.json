@@ -1,6 +1,6 @@
 {
   "name": "فني كهرباء الإمارات",
-  "description": "أفضل خدمات الكهرباء في دبي وعجمان والشارقة مع نموذج حجز سريع ودعم فوري عبر الواتساب.",
+  "description": "أفضل خدمات الكهرباء في دبي وعجمان والشارقة مع نموذج حجز سريع والموقع متاح للإيجار عبر الواتساب.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

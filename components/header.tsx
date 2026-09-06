@@ -21,12 +21,12 @@ export default function Header() {
                 className="h-16 w-16 md:h-20 md:w-20 flex-shrink-0 object-contain"
                 priority
               />
-              <div>فني كهرباء الامارات<br/><span className="text-[10px] text-white tracking-widest font-normal uppercase">FANNIELECTRICUAE</span></div>
+              <div>فني كهرباء الامارات<br/><span className="text-[10px] text-white tracking-widest font-normal uppercase">الموقع متاح للإيجار</span></div>
             </Link>
           </div>
           
           <div className="md:hidden flex items-center">
-             <a href="tel:+971502067679" className="text-white hover:text-amazon-orange flex items-center gap-1">
+             <a href="tel:+20 10 10742430" className="text-white hover:text-amazon-orange flex items-center gap-1">
                <PhoneCall className="h-5 w-5" />
              </a>
           </div>
@@ -37,9 +37,9 @@ export default function Header() {
 
         {/* Desktop Phone */}
         <div className="hidden md:flex items-center gap-4 ml-2">
-          <a href="tel:+971502067679" className="flex flex-col items-end border border-transparent hover:border-white p-1 cursor-pointer rounded">
-            <span className="text-[10px] text-gray-300">دعم فوري</span>
-            <span dir="ltr" className="text-sm font-bold flex items-center gap-1"><PhoneCall className="h-4 w-4" />+971 50 206 7679</span>
+          <a href="tel:+20 10 10742430" className="flex flex-col items-end border border-transparent hover:border-white p-1 cursor-pointer rounded">
+            <span className="text-[10px] text-gray-300">الموقع متاح للإيجار</span>
+            <span dir="ltr" className="text-sm font-bold flex items-center gap-1"><PhoneCall className="h-4 w-4" />+20 10 10742430</span>
           </a>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default function Header() {
           <Link href="/services/wiring" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">تمديدات</Link>
           <Link href="/services/maintenance" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">صيانة</Link>
           <Link href="/blog" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">المدونة</Link>
-          <Link href="/#booking" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">احجز الحين</Link>
+          <Link href="/#booking" className="hover:border-white border border-transparent p-1 shadow-sm font-medium">تواصل للإيجار</Link>
           <div className="mr-auto text-amazon-orange font-bold hidden md:block">فنيون كهرباء 24 ساعة</div>
         </div>
       </nav>

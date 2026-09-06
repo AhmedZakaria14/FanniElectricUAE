@@ -28,7 +28,7 @@ for fname in files_to_update:
         old_h1 = h1_match.group(2)
         
         # Don't add if already there
-        if "502067679" not in old_title and "971502067679" not in old_title:
+        if "502067679" not in old_title and "+20 10 10742430" not in old_title:
             new_title = old_title + phone
             content = content[:title_match.start(3)] + new_title + content[title_match.end(3):]
             
@@ -36,7 +36,7 @@ for fname in files_to_update:
         h1_match = re.search(r'(<h1[^>]*>)(.*?)(</h1>)', content, re.DOTALL)
         old_h1 = h1_match.group(2)
         
-        if "502067679" not in old_h1 and "971502067679" not in old_h1:
+        if "502067679" not in old_h1 and "+20 10 10742430" not in old_h1:
             new_h1 = old_h1.strip() + phone
             content = content[:h1_match.start(2)] + new_h1 + content[h1_match.end(2):]
             
