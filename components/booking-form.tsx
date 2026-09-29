@@ -37,7 +37,7 @@ export default function BookingForm() {
 - ملاحظات: ${data.notes || 'لا يوجد'}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/201010742430?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/971505001597?text=${encodedMessage}`;
     
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
@@ -51,7 +51,7 @@ export default function BookingForm() {
     <div className="bg-white p-4 shadow-sm border border-gray-200" id="booking-form-section">
       <div className="mb-4 text-center">
         <h3 className="text-lg font-bold text-amazon-blue mb-1">نموذج الحجز</h3>
-        <p className="text-xs text-gray-600">تواصل الآن بخصوص إيجار الموقع ونوفر لك أفضل فني.</p>
+        <p className="text-xs text-gray-600">تواصل الآن واحجز أقرب فني كهرباء لخدمتك.</p>
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
