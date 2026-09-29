@@ -13,9 +13,9 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة | الموقع متاح للإيجار",
+  title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة",
   description:
-    "الموقع متاح للإيجار. للتواصل: +201010742430. أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
+    "أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",
@@ -43,7 +43,7 @@ export default function RootLayout({
               image: "https://fannielectricuae.com/logo.png",
               "@id": "",
               url: "https://fannielectricuae.com",
-              telephone: "+201010742430",
+              telephone: "0505001597",
               priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
