@@ -13,6 +13,7 @@ export const metadata = {
   title: 'كهربائي في عجمان - 0505001597 فني كهرباء منازل 24 ساعة رخيص',
   description: ' مطلوب كهربائي في عجمان؟ فني كهرباء الامارات لخدمتك 24 ساعة لحل أعطال المنازل والفلل والمحلات بسرعة وأسعار تنافسية. خدمة فورية اتصل الآن.',
   keywords: 'كهربائي في عجمان, كهربائي عجمان, كهربائي منازل في عجمان, تصليح كهرباء عجمان, اعطال كهرباء عجمان',
+  alternates: { canonical: 'https://www.fannielectricuae.com/electrician-in-ajman' },
 };
 
 export default function ElectricianInAjman() {

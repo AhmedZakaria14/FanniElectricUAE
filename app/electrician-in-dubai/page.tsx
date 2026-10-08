@@ -15,6 +15,7 @@ export const metadata = {
   title: 'كهربائي منازل في دبي - 0505001597 | فني كهرباء الامارات طوارئ 24 ساعة',
   description: ' ابحث عن أفضل كهربائي منازل في دبي 0505001597. شركة فني كهرباء الامارات تقدم خدمات تصليح، صيانة أعطال، وتأسيس كهرباء للفلل بأسعار رخيصة وخدمة 24 ساعة.',
   keywords: 'كهربائي منازل في دبي, كهربائي دبي, فني كهربائي دبي, تصليح كهرباء دبي, مقاول كهرباء دبي',
+  alternates: { canonical: 'https://www.fannielectricuae.com/electrician-in-dubai' },
 };
 
 export default function ElectricianInDubai() {

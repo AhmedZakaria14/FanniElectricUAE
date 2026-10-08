@@ -13,6 +13,7 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.fannielectricuae.com"),
   title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة",
   description:
     "أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
@@ -40,9 +41,9 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "HomeAndConstructionBusiness",
               name: "فني كهرباء الإمارات",
-              image: "https://fannielectricuae.com/logo.png",
-              "@id": "",
-              url: "https://fannielectricuae.com",
+              image: "https://www.fannielectricuae.com/logo.png",
+              "@id": "https://www.fannielectricuae.com/#business",
+              url: "https://www.fannielectricuae.com/",
               telephone: "0505001597",
               priceRange: "$$",
               address: {

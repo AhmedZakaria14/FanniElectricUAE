@@ -24,6 +24,17 @@ const nextConfig: NextConfig = {
     ],
   },
   transpilePackages: ['lucide-react'],
+  // Preserve a single indexable host. Domain-level DNS and TLS must also be configured.
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host' as const, value: 'fannielectricuae.com' }],
+        destination: 'https://www.fannielectricuae.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

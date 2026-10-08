@@ -13,6 +13,7 @@ export const metadata = {
   title: 'كهربائي في الشارقة - 0505001597 فني كهرباء منازل سريع وأرخص سعر',
   description: ' أفضل كهربائي في الشارقة متاح 24 ساعة مع خدمة فورية من شركة فني كهرباء الامارات، مقاول كهرباء لتأسيس الفلل وتصليح الأعطال في الشارقة.',
   keywords: 'كهربائي في الشارقة, كهربائي الشارقة, فني كهرباء الشارقة, كهربائي منازل الشارقة, تصليح كهرباء الشارقة',
+  alternates: { canonical: 'https://www.fannielectricuae.com/electrician-in-sharjah' },
 };
 
 export default function ElectricianInSharjah() {
