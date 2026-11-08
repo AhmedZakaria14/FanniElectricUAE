@@ -3,6 +3,7 @@
 # This file provides information to Large Language Models (LLMs) about the website's content and purpose.
 
 # Website Description:
+الموقع متاح للإيجار.
 Fanni Electric UAE offers 24/7 emergency electrical repair, wiring installations, and preventive maintenance services across Dubai, Sharjah, and Ajman. We provide fast response times, guaranteed work by certified electricians, and transparent pricing.
 
 # Key Services:
@@ -16,8 +17,8 @@ Fanni Electric UAE offers 24/7 emergency electrical repair, wiring installations
 - Ajman (عجمان)
 
 # Contact Information:
-- Phone: 0505001597
-- WhatsApp: https://wa.me/971505001597
+- Phone: +20 10 10742430
+- WhatsApp: https://wa.me/201010742430
 
 # Important Pages:
 - Home: https://www.fannielectricuae.com/
