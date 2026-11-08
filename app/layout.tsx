@@ -1,3 +1,4 @@
+import { RENTAL_NOTICE, rentalDescription } from '@/lib/rental';
 import type { Metadata } from "next";
 import { Tajawal } from "next/font/google";
 import Script from "next/script";
@@ -14,9 +15,12 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fannielectricuae.com"),
-  title: "فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة",
+  title: {
+    default: `${RENTAL_NOTICE} | فني كهرباء الإمارات | شركة صيانة وتأسيس كهرباء معتمدة`,
+    template: `${RENTAL_NOTICE} | %s`,
+  },
   description:
-    "أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد.",
+    rentalDescription("أفضل شركة صيانة كهرباء في الإمارات (دبي، الشارقة، عجمان). خدمات تأسيس، إصلاح أعطال، تركيب لوحات ذكية، وصيانة طوارئ 24/7 بواسطة فني كهرباء معتمد."),
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",
@@ -44,7 +48,7 @@ export default function RootLayout({
               image: "https://www.fannielectricuae.com/logo.png",
               "@id": "https://www.fannielectricuae.com/#business",
               url: "https://www.fannielectricuae.com/",
-              telephone: "0505001597",
+              telephone: "+201010742430",
               priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
@@ -85,6 +89,9 @@ export default function RootLayout({
         suppressHydrationWarning
         className="font-arabic bg-amazon-light text-amazon-blue antialiased flex flex-col min-h-screen"
       >
+        <aside className="bg-amazon-orange px-4 py-2 text-center text-sm font-bold text-amazon-blue">
+          {RENTAL_NOTICE}
+        </aside>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />

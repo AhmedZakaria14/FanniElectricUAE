@@ -8,7 +8,7 @@ const schema = {
   "image": "https://www.fannielectricuae.com/logo.png",
   "priceRange": "$$",
   "description": " أفضل وأسرع خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. فنيين خبراء وشغل يبيض الوجه!",
-  "telephone": "0505001597",
+  "telephone": "+201010742430",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "دبي",
