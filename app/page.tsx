@@ -1,4 +1,4 @@
-import { rentalDescription } from '@/lib/rental';
+import { RENTAL_NOTICE, rentalDescription } from '@/lib/rental';
 import { CheckCircle2,Clock,MessageCircle,PhoneCall,ShieldCheck,Wrench,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,7 +15,7 @@ import wiringInstallation from '@/src/assets/images/wiring_installation_17817045
 import maintenanceElectrician from '@/src/assets/images/maintenance_electrician_1781704595136.jpg';
 
 export const metadata: Metadata = {
-  title: "فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان",
+  title: `${RENTAL_NOTICE} | فني كهرباء الامارات | أفضل فني كهرباء في دبي، الشارقة وعجمان`,
   description: rentalDescription("أفضل خدمات الكهرباء المنزلية والتجارية في دبي، عجمان، والشارقة. طوارئ 24 ساعة، إصلاح التماسات، تمديدات، وصيانة دورية مع نموذج حجز سريع."),
   alternates: {
     canonical: "https://www.fannielectricuae.com/",
