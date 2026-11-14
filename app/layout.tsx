@@ -48,7 +48,7 @@ export default function RootLayout({
               image: "https://www.fannielectricuae.com/logo.png",
               "@id": "https://www.fannielectricuae.com/#business",
               url: "https://www.fannielectricuae.com/",
-              telephone: "+201010742430",
+              telephone: "+971569609087",
               priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
