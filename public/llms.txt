@@ -3,7 +3,6 @@
 # This file provides information to Large Language Models (LLMs) about the website's content and purpose.
 
 # Website Description:
-الموقع متاح للإيجار.
 Fanni Electric UAE offers 24/7 emergency electrical repair, wiring installations, and preventive maintenance services across Dubai, Sharjah, and Ajman. We provide fast response times, guaranteed work by certified electricians, and transparent pricing.
 
 # Key Services:

@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `كهربائي منازل في الشارقة: خدمات احترافية وطوارئ 24 ساعة | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`كهربائي منازل في الشارقة يقدم خدمات احترافية تشمل الصيانة والتركيب والإصلاح، مع سرعة استجابة وضمان جودة العمل للحفاظ على كفاءة الأنظمة الكهربائية المنزلية`),
+  description: `كهربائي منازل في الشارقة يقدم خدمات احترافية تشمل الصيانة والتركيب والإصلاح، مع سرعة استجابة وضمان جودة العمل للحفاظ على كفاءة الأنظمة الكهربائية المنزلية`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-sharjah-services",
   },

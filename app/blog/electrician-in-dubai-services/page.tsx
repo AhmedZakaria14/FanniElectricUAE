@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `كهربائي منازل في دبي خدمات موثوقة على مدار الساعة | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`كهربائي منازل في دبي متخصص في إصلاح الأعطال والتمديدات الكهربائية، تواصل مع فني كهرباء معتمد في الإمارات الآن، والمناطق التي تغطيها شركتنا.`),
+  description: `كهربائي منازل في دبي متخصص في إصلاح الأعطال والتمديدات الكهربائية، تواصل مع فني كهرباء معتمد في الإمارات الآن، والمناطق التي تغطيها شركتنا.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-services",
   },

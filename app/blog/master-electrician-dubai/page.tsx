@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `خدمات معلم كهرباء بدبي: دليلك لاختيار الأفضل بثقة وأمان 0569609087`,
-  description: rentalDescription(`تبحث عن معلم كهرباء بدبي محترف وسريع؟ فني كهرباء الإمارات يوفر كهربائي منازل معتمد لإصلاح الأعطال والتمديدات على مدار الساعة. اتصل الآن 0569609087.`),
+  description: `تبحث عن معلم كهرباء بدبي محترف وسريع؟ فني كهرباء الإمارات يوفر كهربائي منازل معتمد لإصلاح الأعطال والتمديدات على مدار الساعة. اتصل الآن 0569609087.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/master-electrician-dubai",
   },

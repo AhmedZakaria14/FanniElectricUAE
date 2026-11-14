@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { CheckCircle2,AlertTriangle,Calendar,ChevronRight,Clock,FileText,Info,MessageCircle,ShieldCheck,TrendingDown,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,7 +11,7 @@ import panelDubai from '@/src/assets/images/panel_dubai_1781706867088.jpg';
 
 export const metadata = {
   title: 'عقود صيانة كهربائية وقائية ودورية للحماية وتوفير الطاقة | فني كهرباء الامارات',
-  description: rentalDescription('أفضل خدمات الصيانة الكهربائية الوقائية والدورية في دبي، الشارقة، وعجمان. فحص حراري، وتقليل الفواتير وعمر أطول للأجهزة. فني معتمد لخدمة المباني.'),
+  description: 'أفضل خدمات الصيانة الكهربائية الوقائية والدورية في دبي، الشارقة، وعجمان. فحص حراري، وتقليل الفواتير وعمر أطول للأجهزة. فني معتمد لخدمة المباني.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/maintenance",
   },

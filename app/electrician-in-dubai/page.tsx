@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { CheckCircle2,ChevronRight,Clock,Info,MapPin,MessageCircle,PenTool,ShieldCheck } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -14,7 +13,7 @@ import smartHomeImage from '@/src/assets/images/smart_home_1781706915423.jpg';
 
 export const metadata = {
   title: 'كهربائي منازل في دبي - 0569609087 | فني كهرباء الامارات طوارئ 24 ساعة',
-  description: rentalDescription('ابحث عن أفضل كهربائي منازل في دبي 0569609087. شركة فني كهرباء الامارات تقدم خدمات تصليح، صيانة أعطال، وتأسيس كهرباء للفلل بأسعار رخيصة وخدمة 24 ساعة.'),
+  description: 'ابحث عن أفضل كهربائي منازل في دبي 0569609087. شركة فني كهرباء الامارات تقدم خدمات تصليح، صيانة أعطال، وتأسيس كهرباء للفلل بأسعار رخيصة وخدمة 24 ساعة.',
   keywords: 'كهربائي منازل في دبي, كهربائي دبي, فني كهربائي دبي, تصليح كهرباء دبي, مقاول كهرباء دبي',
   alternates: { canonical: 'https://www.fannielectricuae.com/electrician-in-dubai' },
 };

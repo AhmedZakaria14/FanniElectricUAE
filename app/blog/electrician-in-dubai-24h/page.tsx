@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `أفضل كهربائي في دبي متاح 24 ساعة | 0569609087`,
-  description: rentalDescription(`هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على 0569609087.`),
+  description: `هل تبحث عن كهربائي في دبي يصلك بسرعة وأمان؟ فني كهرباء الإمارات يقدم خدمات كهربائي منازل في دبي على مدار الساعة بأسعار واضحة، اتصل الآن على 0569609087.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-dubai-24h",
   },

@@ -1,4 +1,3 @@
-import { RENTAL_NOTICE, rentalDescription } from '@/lib/rental';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Script from 'next/script';
@@ -38,7 +37,7 @@ export async function generateMetadata({
 
   return {
     title: article.title,
-    description: rentalDescription(article.description),
+    description: article.description,
     keywords: [article.title.split('|')[0].trim(), 'فني كهرباء الامارات', 'كهربائي دبي', 'كهربائي الشارقة', 'كهربائي عجمان'],
     alternates: { canonical: `${siteUrl}/blog/${article.slug}` },
     robots: { index: true, follow: true },
@@ -46,14 +45,14 @@ export async function generateMetadata({
       type: 'article',
       locale: 'ar_AE',
       url: `${siteUrl}/blog/${article.slug}`,
-      title: `${RENTAL_NOTICE} | ${article.title}`,
-      description: rentalDescription(article.description),
+      title: `${article.title}`,
+      description: article.description,
       siteName: 'فني كهرباء الامارات',
     },
     twitter: {
       card: 'summary',
-      title: `${RENTAL_NOTICE} | ${article.title}`,
-      description: rentalDescription(article.description),
+      title: `${article.title}`,
+      description: article.description,
     },
   };
 }
@@ -102,7 +101,7 @@ export default async function BlogPost({
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
-    description: rentalDescription(article.description),
+    description: article.description,
     inLanguage: 'ar-AE',
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
     author: { '@type': 'Organization', name: 'فني كهرباء الامارات', url: siteUrl },

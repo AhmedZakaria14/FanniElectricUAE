@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `خدمات تأسيس كهرباء المنازل الذكية في الإمارات | 0569609087`,
-  description: rentalDescription(`دليلك الشامل لتأسيس كهرباء المنازل الذكية في الإمارات مع فني كهرباء الامارات، خطوة بخطوة من البنية التحتية إلى التركيب والبرمجة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`),
+  description: `دليلك الشامل لتأسيس كهرباء المنازل الذكية في الإمارات مع فني كهرباء الامارات، خطوة بخطوة من البنية التحتية إلى التركيب والبرمجة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/smart-home-electrical-installation-uae",
   },

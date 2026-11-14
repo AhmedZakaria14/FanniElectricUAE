@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `التماس كهربائي​ | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة`),
+  description: `يحدث التماس كهربائي عند تلامس الأسلاك بشكل خاطئ، مما يسبب شررًا أو حرارة عالية وقد يؤدي إلى تلف الأجهزة أو نشوب حرائق خطيرة`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-short-circuit",
   },

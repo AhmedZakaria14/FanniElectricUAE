@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `فني كهربائي 24 ساعة في دبي والشارقة وعجمان | 0569609087`,
-  description: rentalDescription(`كهربائي 24 ساعة في دبي والشارقة وعجمان يصلك خلال دقائق لحل أي عطل كهربائي طارئ، تعرف على خدماتنا وأسعارنا ومناطق التغطية مع فني كهرباء الامارات.`),
+  description: `كهربائي 24 ساعة في دبي والشارقة وعجمان يصلك خلال دقائق لحل أي عطل كهربائي طارئ، تعرف على خدماتنا وأسعارنا ومناطق التغطية مع فني كهرباء الامارات.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/24h-electrician-dubai-sharjah-ajman",
   },

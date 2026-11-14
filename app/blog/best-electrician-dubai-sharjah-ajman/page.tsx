@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `دليل أفضل كهربائي في دبي والشارقة وعجمان | 0569609087`,
-  description: rentalDescription(`تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`),
+  description: `تبحث عن أفضل كهربائي في دبي والشارقة وعجمان؟ يقدم فني كهرباء الإمارات خدمة سريعة وموثوقة على مدار الساعة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/best-electrician-dubai-sharjah-ajman",
   },

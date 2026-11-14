@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `أفضل كهربائي في عجمان | 0569609087`,
-  description: rentalDescription(`هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على 0569609087.`),
+  description: `هل تبحث عن كهربائي في عجمان موثوق وسريع؟ يقدم لك فني كهرباء الإمارات أفضل خدمات تصليح كهرباء المنازل والتمديدات بأسعار واضحة وضمان معتمد على مدار 24 ساعة. اتصل الآن على 0569609087.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-in-ajman-24h",
   },

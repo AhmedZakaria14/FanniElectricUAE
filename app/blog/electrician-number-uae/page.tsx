@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `رقم كهربائي منازل موثوق في الإمارات دليل شامل | 0569609087`,
-  description: rentalDescription(`تعرف على أفضل رقم كهربائي منازل في دبي والشارقة وعجمان، خدمة طوارئ 24 ساعة، تسعير واضح، وفنيون معتمدون يصلونك خلال دقائق.`),
+  description: `تعرف على أفضل رقم كهربائي منازل في دبي والشارقة وعجمان، خدمة طوارئ 24 ساعة، تسعير واضح، وفنيون معتمدون يصلونك خلال دقائق.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrician-number-uae",
   },

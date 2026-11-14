@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `دليل أفضل كهربائي منازل في الشارقة وعجمان | 0569609087`,
-  description: rentalDescription(`تبحث عن أفضل كهربائي منازل في الشارقة وعجمان؟ يقدم فني كهرباء الامارات خدمات صيانة وتأسيس شاملة وسريعة على مدار 24 ساعة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`),
+  description: `تبحث عن أفضل كهربائي منازل في الشارقة وعجمان؟ يقدم فني كهرباء الامارات خدمات صيانة وتأسيس شاملة وسريعة على مدار 24 ساعة بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/top-electrician-sharjah-ajman",
   },

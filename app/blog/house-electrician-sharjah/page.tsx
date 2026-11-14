@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `أفضل كهربائي منازل بالشارقة: دليلك لأفضل خدمة صيانة سريعة 0569609087`,
-  description: rentalDescription(`تبحث عن كهربائي منازل بالشارقة يصلك بسرعة؟ نقدم لك في فني كهرباء الامارات خدمات صيانة وإصلاح الأعطال بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`),
+  description: `تبحث عن كهربائي منازل بالشارقة يصلك بسرعة؟ نقدم لك في فني كهرباء الامارات خدمات صيانة وإصلاح الأعطال بأسعار واضحة وضمان معتمد. اتصل الآن 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/house-electrician-sharjah",
   },

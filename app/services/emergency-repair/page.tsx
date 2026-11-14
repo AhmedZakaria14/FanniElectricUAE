@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { CheckCircle2,Activity,AlertTriangle,ChevronRight,Clock,Info,MapPin,MessageCircle,PenTool,ShieldCheck,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,7 +12,7 @@ import emergencyNight from '@/src/assets/images/emergency_night_1781706888867.jp
 
 export const metadata = {
   title: 'إصلاح أعطال كهربائية طارئة | دبي، الشارقة، عجمان | فني كهرباء الامارات',
-  description: rentalDescription('أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.'),
+  description: 'أفضل خدمة طوارئ وإصلاح أعطال كهربائية على مدار 24 ساعة في دبي، الشارقة، وعجمان. فني كهربائي معتمد لإصلاح الالتماسات وانقطاع التيار الكهربائي فوراً.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/emergency-repair",
   },

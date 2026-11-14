@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `شركة صيانة كهرباء توفر كهربائي منازل وخدمات الكهرباء الاحترافية في الإمارات | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية، لا تتردد واحجز الآن.`),
+  description: `شركة صيانة كهرباء معتمدة في دبي والشارقة وعجمان توفر لكم كهربائي منازل متاح 24 ساعة لإصلاح الأعطال والتمديدات الكهربائية، لا تتردد واحجز الآن.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-maintenance-company",
   },

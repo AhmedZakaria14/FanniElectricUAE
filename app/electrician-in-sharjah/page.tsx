@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight,Clock,Info,MapPin,MessageCircle,ShieldCheck,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,7 +11,7 @@ import maintenanceImage from '@/src/assets/images/emergency_repair_2_17817056170
 
 export const metadata = {
   title: 'كهربائي في الشارقة - 0569609087 فني كهرباء منازل سريع وأرخص سعر',
-  description: rentalDescription('أفضل كهربائي في الشارقة متاح 24 ساعة مع خدمة فورية من شركة فني كهرباء الامارات، مقاول كهرباء لتأسيس الفلل وتصليح الأعطال في الشارقة.'),
+  description: 'أفضل كهربائي في الشارقة متاح 24 ساعة مع خدمة فورية من شركة فني كهرباء الامارات، مقاول كهرباء لتأسيس الفلل وتصليح الأعطال في الشارقة.',
   keywords: 'كهربائي في الشارقة, كهربائي الشارقة, فني كهرباء الشارقة, كهربائي منازل الشارقة, تصليح كهرباء الشارقة',
   alternates: { canonical: 'https://www.fannielectricuae.com/electrician-in-sharjah' },
 };

@@ -1,4 +1,3 @@
-import { RENTAL_NOTICE, rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -7,7 +6,7 @@ import articles from '@/lib/new-articles.json';
 
 export const metadata: Metadata = {
   title: 'المدونة | فني كهرباء الامارات',
-  description: rentalDescription('مقالات ونصائح حول صيانة الكهرباء، التمديدات الكهربائية، والتعامل مع الأعطال في منازل دبي والشارقة وعجمان.'),
+  description: 'مقالات ونصائح حول صيانة الكهرباء، التمديدات الكهربائية، والتعامل مع الأعطال في منازل دبي والشارقة وعجمان.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog",
   },
@@ -16,8 +15,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ar_AE',
     url: 'https://www.fannielectricuae.com/blog',
-    title: `${RENTAL_NOTICE} | المدونة | فني كهرباء الامارات`,
-    description: rentalDescription('مقالات ونصائح عملية حول صيانة الكهرباء والتمديدات وإصلاح الأعطال في دبي والشارقة وعجمان.'),
+    title: `المدونة | فني كهرباء الامارات`,
+    description: 'مقالات ونصائح عملية حول صيانة الكهرباء والتمديدات وإصلاح الأعطال في دبي والشارقة وعجمان.',
     siteName: 'فني كهرباء الامارات',
   },
 };

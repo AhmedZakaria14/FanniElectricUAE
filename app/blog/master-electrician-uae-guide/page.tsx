@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `الدليل الشامل لأفضل معلم كهربائي محترف في الإمارات 0569609087`,
-  description: rentalDescription(`شركة فني كهرباء الإمارات يقدم خدمات معلم كهربائي محترف في دبي، الشارقة، وعجمان، مع استجابة سريعة، أسعار واضحة، فقط اتصل الآن 0569609087!`),
+  description: `شركة فني كهرباء الإمارات يقدم خدمات معلم كهربائي محترف في دبي، الشارقة، وعجمان، مع استجابة سريعة، أسعار واضحة، فقط اتصل الآن 0569609087!`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/master-electrician-uae-guide",
   },

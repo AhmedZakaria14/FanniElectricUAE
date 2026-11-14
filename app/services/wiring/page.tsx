@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { CheckCircle2,ChevronRight,Clock,Factory,Home,Info,MapPin,MessageCircle,PenTool,ShieldCheck,Zap } from '@/components/icons';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -12,7 +11,7 @@ import smartHome from '@/src/assets/images/smart_home_1781706915423.jpg';
 
 export const metadata = {
   title: 'تمديدات كهربائية للمنازل والمحلات وتأسيس الأنظمة الذكية | فني كهرباء الامارات',
-  description: rentalDescription('أفضل مقاول تمديدات كهربائية وتأسيس كهرباء للمنازل والمشاريع التجارية في دبي والشارقة وعجمان. موافقات ديوا وتأسيس أنظمة السمارت هوم بأعلى معايير الجودة.'),
+  description: 'أفضل مقاول تمديدات كهربائية وتأسيس كهرباء للمنازل والمشاريع التجارية في دبي والشارقة وعجمان. موافقات ديوا وتأسيس أنظمة السمارت هوم بأعلى معايير الجودة.',
   alternates: {
     canonical: "https://www.fannielectricuae.com/services/wiring",
   },

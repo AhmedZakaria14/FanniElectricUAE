@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `خدمات كهربائي منازل بدبي: دليلك لخدمة كهربائية سريعة 0569609087`,
-  description: rentalDescription(`تبحث عن كهربائي منازل بدبي يحل مشكلتك بسرعة وأمان؟ تعرف على أفضل الحلول لتصليح كهرباء المنازل مع فني كهرباء الامارات. اتصل على 0569609087`),
+  description: `تبحث عن كهربائي منازل بدبي يحل مشكلتك بسرعة وأمان؟ تعرف على أفضل الحلول لتصليح كهرباء المنازل مع فني كهرباء الامارات. اتصل على 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/home-electrician-dubai-guide",
   },

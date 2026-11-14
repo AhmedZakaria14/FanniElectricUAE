@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `خدمات معلم كهرباء الشارقة: دليلك لاختيار الأفضل بثقة 0569609087`,
-  description: rentalDescription(`تبحث عن معلم كهرباء الشارقة موثوق وسريع الاستجابة؟ يقدم لك موقع فني كهرباء الإمارات أفضل الفنيين المعتمدين لإصلاح الأعطال والتمديدات على مدار الساعة في جميع أحياء الشارقة.`),
+  description: `تبحث عن معلم كهرباء الشارقة موثوق وسريع الاستجابة؟ يقدم لك موقع فني كهرباء الإمارات أفضل الفنيين المعتمدين لإصلاح الأعطال والتمديدات على مدار الساعة في جميع أحياء الشارقة.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/master-electrician-sharjah",
   },

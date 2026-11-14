@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `احصل على رقم فني كهربائي سريع في الإمارات 0569609087`,
-  description: rentalDescription(`تبحث عن رقم فني كهربائي موثوق في دبي، الشارقة، وعجمان؟ فني كهرباء الإمارات يقدم خدمة سريعة على مدار الساعة، تواصل الآن على 0569609087`),
+  description: `تبحث عن رقم فني كهربائي موثوق في دبي، الشارقة، وعجمان؟ فني كهرباء الإمارات يقدم خدمة سريعة على مدار الساعة، تواصل الآن على 0569609087`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/get-electrician-number-uae",
   },

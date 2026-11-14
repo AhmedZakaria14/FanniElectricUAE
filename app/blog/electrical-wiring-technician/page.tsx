@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `فني تمديدات كهربائية​ | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`فني تمديدات كهربائية متخصص في تركيب وصيانة الشبكات الكهربائية داخل المنازل، يضمن توزيع الأحمال بشكل آمن، ويعالج الأعطال بكفاءة وفق المعايير الفنية الحديثة`),
+  description: `فني تمديدات كهربائية متخصص في تركيب وصيانة الشبكات الكهربائية داخل المنازل، يضمن توزيع الأحمال بشكل آمن، ويعالج الأعطال بكفاءة وفق المعايير الفنية الحديثة`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/electrical-wiring-technician",
   },

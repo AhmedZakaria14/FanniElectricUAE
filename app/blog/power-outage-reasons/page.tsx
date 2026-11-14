@@ -1,4 +1,3 @@
-import { rentalDescription } from '@/lib/rental';
 import { ChevronRight } from '@/components/icons';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -7,7 +6,7 @@ import TableOfContents from '@/components/table-of-contents';
 
 export const metadata: Metadata = {
   title: `سبب انقطاع الكهرباء في المنزل وكيفية التعامل مع هذه المشكلة | فني كهرباء الامارات | 0569609087`,
-  description: rentalDescription(`تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة وخدمات كهربائي متخصص في دبي والشارقة وعجمان.`),
+  description: `تعرف على سبب انقطاع الكهرباء في المنزل وأبرز الأعطال الكهربائية الشائعة، مع حلول فنية سريعة وخدمات كهربائي متخصص في دبي والشارقة وعجمان.`,
   alternates: {
     canonical: "https://www.fannielectricuae.com/blog/power-outage-reasons",
   },
